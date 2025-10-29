@@ -12,71 +12,29 @@
 ### The goal of the website is to guide players from beginners to pros through engaging visuals, organized layouts, and interactive features that enhance understanding and gameplay.
 
 ## **Website Outline**
-- ### **Home** – A welcoming page that introduces the website’s purpose, shows a rotating Valorant banner, and links to other pages such as Agents and Weapons.
+- ### **Home** – The main welcome page that introduces the website’s purpose, shows the Valorant banner and includes various designs, and links to other pages such as Agents and Weapons.
 
-- ### **Agents** – Displays profiles of all agents categorized by their roles (Duelist, Sentinel, Controller, Initiator), each with portraits, abilities, and playstyle tips.
+- ### **The Agents** – Displays profiles of all agents categorized by their roles (Duelist, Sentinel, Controller, Initiator), each with portraits of the agent, their abilities, and overall playstyle tips.
 
-- ### **Maps** – Provides interactive map images with labeled callouts and strategy zones that players can explore for better positioning and tactics.
+- ### **The Maps** – Provides interactive map images with labeled callouts and strategy zones that players can explore for better positioning and tactics.
 
-- ### **Weapons** – Lists every weapon along with stats like cost, damage, and fire rate, with a JavaScript-based comparison chart.
+- ### **The Weapons** – Lists every weapon along with stats like cost, damage, and fire rate, with a designed comparison chart.
 
-- ### **Game Modes** – Explains all Valorant modes including Competitive, Unrated, and Spike Rush, detailing objectives and strategies.
+- ### **The Game Modes** – Explains most if not all Valorant modes including Competitive, Unrated, Deathmatch, Spike Rush, etc., explaining its objectives and how to win.
 
-- ### **Strategies** – Covers advanced gameplay tactics such as team coordination, utility usage, and post-plant strategies, with embedded tutorials.
+- ### **The Strategies** – Covers advanced gameplay tactics such as team communication, utility usage, and post-plant strategies, with it's own tutorials.
 
 ## **JavaScript Integration**
 ## JavaScript will be incorporated into the following:
 
-- ### **Home Page:** Image carousel showing new updates and featured agents.
-- ### **Agents Page:** Hover animations displaying each agent’s abilities.
-- ### **Weapons Page:** Sortable, interactive weapon table with comparison functions.
-- ### **Navigation Bar:** Responsive hamburger menu for mobile view.
-- ### **Footer:** Auto-updating copyright year.
+- ### **The Home Page:** Image display showing new updates and featured agents.
+- ### **The Agents Page:** Animations displaying each agent’s abilities.
+- ### **The Weapons Page:** Cool and interactive weapon table with comparison functions.
+- ### **The Navigation Bar:** Used for an interactive exploration in our website.
 
-## **ireframes / Mock-ups**
-## Below are the descriptions for all proposed webpages and their layouts:
-
-## **Home Page**
-- ### Header: Logo + navigation bar
-- ### Main Section: Rotating Valorant banner, intro text, and quick links to pages
-- ### Footer: Copyright + social media links
-
-## **Agents Page**
-- ### Header: Logo + navigation
-- ### Main Section: Grid of agent cards with hover animations and role filter
-- ### Footer: Standard footer with icons and links
-
-## **Maps Page**
-- ### Header: Logo + navigation
-- ### Main Section: Interactive map images with click-based callouts
-- ### Footer: Standard footer with icons and links
-
-## **Weapons Page**
-- ### Header: Logo + navigation
-- ### Main Section: Sortable weapon table with stats and comparison chart
-- ### Footer: Standard footer with icons and links
-
-## **Strategies Page**
-- ### Header: Logo + navigation
-- ### Main Section: Collapsible sections for tactics and embedded videos
-- ### Footer: Standard footer with icons and links
-
-## **Navigation design**
-- ### The top navigation bar connects all pages.
-- ### The logo links back to the Home page.
-- ### Each page maintains a consistent design for smooth user experience.
-
-## All web pages will also include a fixed, responsive top navigation bar with links to our subpages which are:
-- ### Home
-- ### Agents
-- ### Maps
-- ### Weapons
-- ### Modes
-- ### Strategies
-
-## The web pages will also:
-- ### 1. Be fixed at the top for easy access
-- ### 2. Have a button hover-like design for the links.
+## **Wireframes / Mock-ups**
+## Attatched in our repository are the proposed layouts/mock-ups of each page.
+## All web pages will also include a fixed, responsive top navigation bar with links to our subpages like *The Agents, The Maps, The Weapons, etc.*. It also includes a hover feature for links so that it looks better. Along with this, the top navigation bar will contain the links to all the different web pages that isn't the one you're on.
 
 ## **Our Footer Design**
 ## Each page will include a footer containing:
