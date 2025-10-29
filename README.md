@@ -22,8 +22,6 @@
 
 - ### **The Game Modes** – Explains most if not all Valorant modes including Competitive, Unrated, Deathmatch, Spike Rush, etc., explaining its objectives and how to win.
 
-- ### **The Strategies** – Covers advanced gameplay tactics such as team communication, utility usage, and post-plant strategies, with it's own tutorials.
-
 ## **JavaScript Integration**
 ## JavaScript will be incorporated into the following:
 
@@ -33,8 +31,8 @@
 - ### **The Navigation Bar:** Used for an interactive exploration in our website.
 
 ## **Wireframes / Mock-ups**
-## Attatched in our repository are the proposed layouts/mock-ups of each page.
-## All web pages will also include a fixed, responsive top navigation bar with links to our subpages like *The Agents, The Maps, The Weapons, etc.*. It also includes a hover feature for links so that it looks better. Along with this, the top navigation bar will contain the links to all the different web pages that isn't the one you're on.
+### Attatched in our repository are the proposed layouts/mock-ups of each page.
+### All web pages will also include a fixed, responsive top navigation bar with links to our subpages like *The Agents, The Maps, The Weapons, etc.*. It also includes a hover feature for links so that it looks better. Along with this, the top navigation bar will contain the links to all the different web pages that isn't the one you're on.
 
 ## **Our Footer Design**
 ## Each page will include a footer containing:
