@@ -4,7 +4,7 @@
 ## **Second Title** - "Your Ultimate Beginner-to-Pro Companion to Valorant"
 
 ## **Logo Description** - 
-### The *Valorant: Beyond the Crosshair* logo is ...
+### The logo for *Valorant: Beyond the Crosshair* logo is uploaded in the same repository this README file is in.
 ### The logo will be displayed on every page in the top-left corner of the navigation bar and will also appear as the favicon in the browser tab.
 
 ## **Website Description** - 
