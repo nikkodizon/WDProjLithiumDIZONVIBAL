@@ -1,73 +1,86 @@
-# WDProjLithiumDIZONVIBAL
+# Erwyn Aamir M. Vibal and Nikko Brenden S. Dizon | 9-Lithium
 
-## WEBSITE NAME
-**Valorant: Beyond the Crosshair**
+## **Website Title** - "Valorant: Beyond the Crosshair"
+## **Second Title** - "Your Ultimate Beginner-to-Pro Companion to Valorant"
 
-## SECOND NAME
-**Your Ultimate Beginner-to-Pro Companion to Valorant**
+## **Logo Description** - 
+### The *Valorant: Beyond the Crosshair* logo is ...
+### The logo will be displayed on every page in the top-left corner of the navigation bar and will also appear as the favicon in the browser tab.
 
-## DESCRIPTION OF THE WEBSITE
-**"Valorant: Beyond the Crosshair"** is a website that offers a complete guide to everything in and about the video game *Valorant*.  
-It thoroughly and neatly explains every part of the game, including the different agents, maps, weapons, game modes, strategies, and lore.  
+## **Website Description** - 
+### *Valorant: Beyond the Crosshair* is an interactive guide designed to help players of all skill levels improve their gameplay. It offers detailed insights into agents, maps, weapons, and strategies — everything a player needs to understand the game in depth.
+### The goal of the website is to guide players from beginners to pros through engaging visuals, organized layouts, and interactive features that enhance understanding and gameplay.
 
-This website aims to provide players with a complete understanding of how the game works, both educationally and interactively.  
-**"Valorant: Beyond the Crosshair"** will serve as the ultimate reference for anyone who wants to fully understand and immerse themselves in *Valorant*, both as a game and as an experience.
+## **Website Outline**
+- ### **Home** – A welcoming page that introduces the website’s purpose, shows a rotating Valorant banner, and links to other pages such as Agents and Weapons.
 
----
+- ### **Agents** – Displays profiles of all agents categorized by their roles (Duelist, Sentinel, Controller, Initiator), each with portraits, abilities, and playstyle tips.
 
-## OUTLINE
+- ### **Maps** – Provides interactive map images with labeled callouts and strategy zones that players can explore for better positioning and tactics.
 
-### **I. Home**
-**Subtitle:** *Welcome to Valorant: Beyond the Crosshair*  
-**Short Description:**  
-The main page introduces the website and its purpose. It highlights the newest updates in *Valorant*, features quick links to the other major pages, and welcomes users to explore the complete guide.
+- ### **Weapons** – Lists every weapon along with stats like cost, damage, and fire rate, with a JavaScript-based comparison chart.
 
-### **II. Agents**
-**Subtitle:** *Master Every Agent and Ability*  
-**Short Description:**  
-This section explains all agents in the game, organized by their roles such as Duelists, Sentinels, Controllers, and Initiators.  
-Each profile includes their abilities, playstyle tips, and best map combinations.
+- ### **Game Modes** – Explains all Valorant modes including Competitive, Unrated, and Spike Rush, detailing objectives and strategies.
 
-### **III. Maps**
-**Subtitle:** *Learn Every Battlefield*  
-**Short Description:**  
-Provides detailed overviews of all playable maps, including layouts, callouts, and strategic zones.  
-Interactive visuals show optimal team setups and common choke points to help players understand positioning.
+- ### **Strategies** – Covers advanced gameplay tactics such as team coordination, utility usage, and post-plant strategies, with embedded tutorials.
 
-### **IV. Weapons**
-**Subtitle:** *Know Your Arsenal*  
-**Short Description:**  
-Lists every weapon in *Valorant* along with its type, stats, cost, and best uses.  
-The section helps users compare weapons and learn which tools suit different playstyles and situations.
+## **JavaScript Integration**
+## JavaScript will be incorporated into the following:
 
-### **V. Game Modes**
-**Subtitle:** *Discover Every Way to Play*  
-**Short Description:**  
-Explains all available game modes, from Competitive and Unrated to Spike Rush and Team Deathmatch.  
-Each mode includes its objectives, rules, and recommended strategies for success.
+- ### **Home Page:** Image carousel showing new updates and featured agents.
+- ### **Agents Page:** Hover animations displaying each agent’s abilities.
+- ### **Weapons Page:** Sortable, interactive weapon table with comparison functions.
+- ### **Navigation Bar:** Responsive hamburger menu for mobile view.
+- ### **Footer:** Auto-updating copyright year.
 
-### **VI. Miscellaneous**
-**Subtitle:** *Everything Beyond the Game*  
-**Short Description:**  
-Focuses on additional content such as weapon skins, bundles, sprays, player cards, and the Battle Pass.  
-Includes updates on new cosmetic releases, collections, and limited-time events.
+## **ireframes / Mock-ups**
+## Below are the descriptions for all proposed webpages and their layouts:
 
-### **VII. Strategies**
-**Subtitle:** *Think, Plan, and Execute*  
-**Short Description:**  
-Explains various strategies ranging from team communication and economy control to utility placement and post-plant tactics.  
-Helps players develop stronger coordination and decision-making skills.
+## **Home Page**
+- ### Header: Logo + navigation bar
+- ### Main Section: Rotating Valorant banner, intro text, and quick links to pages
+- ### Footer: Copyright + social media links
 
-### **VIII. Lore**
-**Subtitle:** *The Story Behind the Protocol*  
-**Short Description:**  
-Explores the narrative side of *Valorant*, discussing the origins of agents, the creation of the Valorant Protocol, and the connections between maps and storylines.
+## **Agents Page**
+- ### Header: Logo + navigation
+- ### Main Section: Grid of agent cards with hover animations and role filter
+- ### Footer: Standard footer with icons and links
 
-### **IX. About Us**
-**Subtitle:** *Meet the Brains Behind the Guide*  
-**Short Description:**  
-Introduces the creators of *Valorant: Beyond the Crosshair* — **Nikko Brenden Dizon** and **Erwyn Aamir Vibal**.  
-Includes short bios, credits, and contact details.  
-Also features the GitHub repository link and acknowledgments for the resources used.
+## **Maps Page**
+- ### Header: Logo + navigation
+- ### Main Section: Interactive map images with click-based callouts
+- ### Footer: Standard footer with icons and links
 
-### 📘 **End of README**
+## **Weapons Page**
+- ### Header: Logo + navigation
+- ### Main Section: Sortable weapon table with stats and comparison chart
+- ### Footer: Standard footer with icons and links
+
+## **Strategies Page**
+- ### Header: Logo + navigation
+- ### Main Section: Collapsible sections for tactics and embedded videos
+- ### Footer: Standard footer with icons and links
+
+## **Navigation design**
+- ### The top navigation bar connects all pages.
+- ### The logo links back to the Home page.
+- ### Each page maintains a consistent design for smooth user experience.
+
+## All web pages will also include a fixed, responsive top navigation bar with links to our subpages which are:
+- ### Home
+- ### Agents
+- ### Maps
+- ### Weapons
+- ### Modes
+- ### Strategies
+
+## The web pages will also:
+- ### 1. Be fixed at the top for easy access
+- ### 2. Have a button hover-like design for the links.
+
+## **Our Footer Design**
+## Each page will include a footer containing:
+
+- ### A Copyright Notice: *© 2025 Valorant: Beyond the Crosshair. All rights reserved.*
+- ### Links to our social media
+- ### Sources and citations
