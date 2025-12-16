@@ -1,0 +1,1914 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="description" content="2Q Portfolio">
+    <meta name="keywords" content="2Q, Portfolio, Projects, Web Development">
+    <meta name="Erwyn Aamir M. Vibal" content="2Q">
+    <title>VALORANT: Beyond the Crosshair - Agents</title>
+    <link rel="stylesheet" href="css/styles.css"/>   
+    <link rel="icon" href="../Proposal/Logo2.png" sizes="16x16" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- LOADING SCREEN -->
+    <div id="loader">
+      <svg class="loader-svg" width="200" height="200" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="loader-ring" style="transform-origin: 50px 50px">
+          <circle cx="50" cy="50" r="34" stroke="#E72632" stroke-width="4" stroke-dasharray="50 10" />
+        </g>
+        <g fill="#E72632">
+          <path d="M33 35H43L50 52L57 35H67L50 68L33 35Z" />
+          <rect x="45.5" y="2" width="9" height="22" />
+          <rect x="45.5" y="76" width="9" height="22" />
+          <rect x="2" y="45.5" width="22" height="9" />
+          <rect x="76" y="45.5" width="22" height="9" />
+        </g>
+      </svg>
+      <h2 style="margin-top: 20px">INITIATING...</h2>
+    </div>
+
+    <nav>
+      <div class="nav-container">
+        <a href="index.html">
+          <svg height="60" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="valorant-symbol-nav" fill="#FF4655">
+              <path d="M36 38H44L50 51L56 38H64L50 63L36 38Z" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M50 82C67.6731 82 82 67.6731 82 50C82 32.3269 67.6731 18 50 18C32.3269 18 18 32.3269 18 50C18 67.6731 32.3269 82 50 82ZM50 90C72.0914 90 90 72.0914 90 50C90 27.9086 72.0914 10 50 10C27.9086 10 10 27.9086 10 50C10 72.0914 27.9086 90 50 90Z" />
+              <rect x="46" y="2" width="8" height="20" />
+              <rect x="46" y="78" width="8" height="20" />
+              <rect x="2" y="46" width="20" height="8" />
+              <rect x="78" y="46" width="20" height="8" />
+            </g>
+            <g fill="#0F1923" font-family="'Oswald', sans-serif" style="text-transform: uppercase">
+              <text x="110" y="62" font-size="60" font-weight="900" fill="white">Valorant</text>
+              <text x="112" y="85" font-size="14" font-weight="700" letter-spacing="1.5" fill="#aaa">Beyond The Crosshair</text>
+            </g>
+          </svg>
+        </a>
+        <div class="menu-toggle" id="mobile-menu-btn">☰</div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="agents.html" style="color: #ff4655">AGENTS</a></li>
+          <li><a href="maps.html">MAPS</a></li>
+          <li><a href="weapons.html">WEAPONS</a></li>
+          <li><a href="gamemodes.html">GAMEMODES</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="agents" class="page-section">
+      <div class="container">
+        <div style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/maps/breeze.jpg'); background-size: cover; padding: 60px 20px; border-bottom: 4px solid #ff4655; margin-bottom: 40px; text-align: center">
+          <h1 style="font-size: 3rem">AGENTS</h1>
+          <p>Find your playstyle and master your abilities.</p>
+        </div>
+
+        <!-- DESCRIPTIONS -->
+        <div class="content-block" style="background-color: #171f28; padding: 40px; border-left: 5px solid #ff4655; margin-bottom: 50px">
+          <h2 style="margin-bottom: 10px; color: #ff4655">INFORMATION ON AGENTS IN VALORANT</h2>
+          <p style="margin-bottom: 20px">Agents are the playable characters in VALORANT, each with unique abilities that define their role in a match.</p>
+
+          <h4 style="color: white; margin-top: 20px">Story & Lore</h4>
+          <p style="font-size: 0.95rem; color: #ccc">
+            Story-wise, agents are members of the VALORANT Protocol, a secret organization created to deal with threats involving radianite. Each agent is assigned a protocol number based on the order in which they officially joined the organization, and these numbers are often referenced in voice lines, player cards, and official media. Agents come from different countries around the world and have their own backgrounds, personalities, and motivations. Some agents are Radiants, meaning they gained supernatural powers through radianite, while others rely on advanced technology, training, or
+            weapons. Together, they work to stop global threats linked to radianite and mirror agents from alternate realities.
+          </p>
+
+          <h4 style="color: white; margin-top: 20px">Gameplay</h4>
+          <p style="font-size: 0.95rem; color: #ccc">
+            Gameplay-wise, agents each have a unique set of abilities that affect how they are played and how they support their team. Every agent has one signature ability, which can recharge over time or through actions, and two other normal abilities that must be bought using credits during the Buy Phase. In addition, each agent has an ultimate ability, which is a powerful skill that is charged by getting kills, planting or defusing the spike, or collecting ultimate orbs around the map. Some agents also have passive abilities, which are always active and do not need to be equipped or
+            purchased.
+          </p>
+
+          <p style="font-size: 0.95rem; color: #ccc; margin-top: 15px">Agents are designed to fill specific roles such as attacking, defending, gathering information, or controlling areas of the map. Choosing the right agent can greatly influence how a round is played and the overall team strategy. Agents are divided into four main roles: Duelists, Initiators, Controllers, and Sentinels, each with a clear purpose in a match.</p>
+
+          <p style="font-size: 0.95rem; color: #ccc; margin-top: 15px">VALORANT originally launched with 10 agents, and RIOT continues to expand the roster by releasing a new agent roughly every episode, keeping the game fresh and introducing new playstyles over time.</p>
+
+          <div style="background-color: #2c3540; padding: 20px; margin-top: 30px; border: 1px dashed #ff4655">
+            <strong style="color: #ff4655; text-transform: uppercase">Fun Fact:</strong>
+            <span style="font-style: italic">Agent 08 is the only missing protocol number in VALORANT, and their identity has never been officially revealed. Riot Games has stated that Agent 08 will be addressed in the future, leading many players to believe they may appear later in the story or as a future agent connected to major lore events.</span>
+          </div>
+        </div>
+
+        <!-- DUELISTS -->
+        <div class="content-block">
+          <h3 style="color: #ff4655; border-left: 5px solid white; padding-left: 10px">DUELISTS</h3>
+          <p style="margin-bottom: 20px; font-style: italic; color: #aaa">Duelists are designed to take fights and create space for their team. A key feature of Duelists is that their signature ability can be recharged by getting two kills in a round, encouraging aggressive play and rewarding players who successfully engage the enemy. There are currently 8 playable Duelists in the game as of 12/16/2025.</p>
+          <div class="card-grid">
+            <!-- Phoenix -->
+            <div class="card" onclick="openModal('modal-phoenix')">
+              <div class="card-img-container">
+                <img src="images/agents/phoenix.png" alt="Phoenix" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Phoenix</h4>
+                <p class="card-role">Duelist</p>
+              </div>
+            </div>
+            <!-- Jett -->
+            <div class="card" onclick="openModal('modal-jett')">
+              <div class="card-img-container">
+                <img src="images/agents/jett.png" alt="Jett" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Jett</h4>
+                <p class="card-role">Duelist</p>
+              </div>
+            </div>
+            <!-- Reyna -->
+            <div class="card" onclick="openModal('modal-reyna')">
+              <div class="card-img-container">
+                <img src="images/agents/reyna.png" alt="Reyna" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Reyna</h4>
+                <p class="card-role">Duelist</p>
+              </div>
+            </div>
+            <!-- Raze -->
+            <div class="card" onclick="openModal('modal-raze')">
+              <div class="card-img-container">
+                <img src="images/agents/raze.png" alt="Raze" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Raze</h4>
+                <p class="card-role">Duelist</p>
+              </div>
+            </div>
+            <!-- Yoru -->
+            <div class="card" onclick="openModal('modal-yoru')">
+              <div class="card-img-container">
+                <img src="images/agents/yoru.png" alt="Yoru" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Yoru</h4>
+                <p class="card-role">Duelist</p>
+              </div>
+            </div>
+            <!-- Neon -->
+            <div class="card" onclick="openModal('modal-neon')">
+              <div class="card-img-container">
+                <img src="images/agents/neon.png" alt="Neon" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Neon</h4>
+                <p class="card-role">Duelist</p>
+              </div>
+            </div>
+            <!-- Iso -->
+            <div class="card" onclick="openModal('modal-iso')">
+              <div class="card-img-container">
+                <img src="images/agents/iso.png" alt="Iso" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Iso</h4>
+                <p class="card-role">Duelist</p>
+              </div>
+            </div>
+            <!-- Waylay -->
+            <div class="card" onclick="openModal('modal-waylay')">
+              <div class="card-img-container">
+                <img src="images/agents/waylay.png" alt="Waylay" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Waylay</h4>
+                <p class="card-role">Duelist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- INITIATORS -->
+        <div class="content-block">
+          <h3 style="color: #ff4655; border-left: 5px solid white; padding-left: 10px">INITIATORS</h3>
+          <p style="margin-bottom: 20px; font-style: italic; color: #aaa">
+            Initiators are agents who focus on setting up their team for success by gathering information and disrupting enemy positions. Their abilities help clear angles, reveal enemy locations, or force opponents to move, making it easier for teammates to take space and secure sites. Many Initiators have a signature ability that refreshes after a cooldown, allowing them to be used multiple times in a round if timed well. Rather than leading with pure aggression, Initiators play a key role in enabling pushes, executes, and retakes through smart utility usage and teamwork. There are currently
+            7 playable initiators in the game as of 12/16/2025.
+          </p>
+          <div class="card-grid">
+            <!-- Sova -->
+            <div class="card" onclick="openModal('modal-sova')">
+              <div class="card-img-container">
+                <img src="images/agents/sova.png" alt="Sova" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Sova</h4>
+                <p class="card-role">Initiator</p>
+              </div>
+            </div>
+            <!-- Breach -->
+            <div class="card" onclick="openModal('modal-breach')">
+              <div class="card-img-container">
+                <img src="images/agents/breach.png" alt="Breach" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Breach</h4>
+                <p class="card-role">Initiator</p>
+              </div>
+            </div>
+            <!-- Skye -->
+            <div class="card" onclick="openModal('modal-skye')">
+              <div class="card-img-container">
+                <img src="images/agents/skye.png" alt="Skye" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Skye</h4>
+                <p class="card-role">Initiator</p>
+              </div>
+            </div>
+            <!-- KAY/O -->
+            <div class="card" onclick="openModal('modal-kayo')">
+              <div class="card-img-container">
+                <img src="images/agents/kayo.png" alt="KAY/O" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">KAY/O</h4>
+                <p class="card-role">Initiator</p>
+              </div>
+            </div>
+            <!-- Fade -->
+            <div class="card" onclick="openModal('modal-fade')">
+              <div class="card-img-container">
+                <img src="images/agents/fade.png" alt="Fade" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Fade</h4>
+                <p class="card-role">Initiator</p>
+              </div>
+            </div>
+            <!-- Gekko -->
+            <div class="card" onclick="openModal('modal-gekko')">
+              <div class="card-img-container">
+                <img src="images/agents/gekko.png" alt="Gekko" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Gekko</h4>
+                <p class="card-role">Initiator</p>
+              </div>
+            </div>
+            <!-- Tejo -->
+            <div class="card" onclick="openModal('modal-tejo')">
+              <div class="card-img-container">
+                <img src="images/agents/tejo.png" alt="Tejo" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Tejo</h4>
+                <p class="card-role">Initiator</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTROLLERS -->
+        <div class="content-block">
+          <h3 style="color: #ff4655; border-left: 5px solid white; padding-left: 10px">CONTROLLERS</h3>
+          <p style="margin-bottom: 20px; font-style: italic; color: #aaa">
+            Controllers are agents who specialize in shaping the battlefield by controlling vision and space. They use smokes, walls, and area-denial abilities to block sightlines, cut off enemy movement, and help their team safely take or defend sites. Usually, a Controller’s smoke ability can recharge after a certain amount of time, allowing them to place smokes multiple times in a round. This makes Controllers crucial for controlling the pace of the game and supporting their team throughout the round. There are currently 6 playable controllers as of 12/16/2025
+          </p>
+          <div class="card-grid">
+            <!-- Brimstone -->
+            <div class="card" onclick="openModal('modal-brimstone')">
+              <div class="card-img-container">
+                <img src="images/agents/brimstone.png" alt="Brimstone" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Brimstone</h4>
+                <p class="card-role">Controller</p>
+              </div>
+            </div>
+            <!-- Viper -->
+            <div class="card" onclick="openModal('modal-viper')">
+              <div class="card-img-container">
+                <img src="images/agents/viper.png" alt="Viper" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Viper</h4>
+                <p class="card-role">Controller</p>
+              </div>
+            </div>
+            <!-- Omen -->
+            <div class="card" onclick="openModal('modal-omen')">
+              <div class="card-img-container">
+                <img src="images/agents/omen.png" alt="Omen" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Omen</h4>
+                <p class="card-role">Controller</p>
+              </div>
+            </div>
+            <!-- Astra -->
+            <div class="card" onclick="openModal('modal-astra')">
+              <div class="card-img-container">
+                <img src="images/agents/astra.png" alt="Astra" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Astra</h4>
+                <p class="card-role">Controller</p>
+              </div>
+            </div>
+            <!-- Harbor -->
+            <div class="card" onclick="openModal('modal-harbor')">
+              <div class="card-img-container">
+                <img src="images/agents/harbor.png" alt="Harbor" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Harbor</h4>
+                <p class="card-role">Controller</p>
+              </div>
+            </div>
+            <!-- Clove -->
+            <div class="card" onclick="openModal('modal-clove')">
+              <div class="card-img-container">
+                <img src="images/agents/clove.png" alt="Clove" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Clove</h4>
+                <p class="card-role">Controller</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SENTINELS -->
+        <div class="content-block">
+          <h3 style="color: #ff4655; border-left: 5px solid white; padding-left: 10px">SENTINELS</h3>
+          <p style="margin-bottom: 20px; font-style: italic; color: #aaa">Sentinels are agents focused on defense, area control, and protecting their teammates. They specialize in locking down sites, watching flanks, and delaying enemies with traps, slows, and information-gathering utility. Their abilities often stay active until destroyed or triggered, making them reliable throughout the round. Sentinels are essential for maintaining map control and team safety on both attack and defense. There are currently 7 playable Sentinels as of 12/16/2025.</p>
+          <div class="card-grid">
+            <!-- Killjoy -->
+            <div class="card" onclick="openModal('modal-killjoy')">
+              <div class="card-img-container">
+                <img src="images/agents/killjoy.png" alt="Killjoy" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Killjoy</h4>
+                <p class="card-role">Sentinel</p>
+              </div>
+            </div>
+            <!-- Cypher -->
+            <div class="card" onclick="openModal('modal-cypher')">
+              <div class="card-img-container">
+                <img src="images/agents/cypher.png" alt="Cypher" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Cypher</h4>
+                <p class="card-role">Sentinel</p>
+              </div>
+            </div>
+            <!-- Sage -->
+            <div class="card" onclick="openModal('modal-sage')">
+              <div class="card-img-container">
+                <img src="images/agents/sage.png" alt="Sage" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Sage</h4>
+                <p class="card-role">Sentinel</p>
+              </div>
+            </div>
+            <!-- Chamber -->
+            <div class="card" onclick="openModal('modal-chamber')">
+              <div class="card-img-container">
+                <img src="images/agents/chamber.png" alt="Chamber" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Chamber</h4>
+                <p class="card-role">Sentinel</p>
+              </div>
+            </div>
+            <!-- Deadlock -->
+            <div class="card" onclick="openModal('modal-deadlock')">
+              <div class="card-img-container">
+                <img src="images/agents/deadlock.png" alt="Deadlock" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Deadlock</h4>
+                <p class="card-role">Sentinel</p>
+              </div>
+            </div>
+            <!-- Vyse -->
+            <div class="card" onclick="openModal('modal-vyse')">
+              <div class="card-img-container">
+                <img src="images/agents/vyse.png" alt="Vyse" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Vyse</h4>
+                <p class="card-role">Sentinel</p>
+              </div>
+            </div>
+            <!-- Veto -->
+            <div class="card" onclick="openModal('modal-veto')">
+              <div class="card-img-container">
+                <img src="images/agents/veto.png" alt="Veto" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Veto</h4>
+                <p class="card-role">Sentinel</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODALS -->
+    <!-- PHOENIX -->
+    <div id="modal-phoenix" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-phoenix')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/phoenix_body.png" alt="Phoenix Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">PHOENIX</h2>
+          <p style="color: #aaa">DUELIST</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">
+            Phoenix is Agent 09 in VALORANT and one of the original Duelists available since the Closed Beta. His real name is Jamie Adeyemi, a Radiant from the Peckham district of London, England. He attended a performing arts school growing up but was later suspended. Phoenix was recruited into the VALORANT Protocol and quickly became involved in its operations. Early in his time with the Protocol, much of the information was kept from him due to his recent recruitment. Because of this, Phoenix failed to stop a spike detonation in Venice while on a solo mission. The next day, during another
+            attack in Rabat, he successfully prevented a detonation and came face-to-face with his Omega Earth counterpart for the first time. After this mission, Phoenix was finally informed about the larger threat posed by Omega Earth. This agent is Aamir’s personal favorite to use!
+          </p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>CURVEBALL (Signature):</strong> EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to curve left, ALT FIRE to curve right. Detonating blinds any player who sees the orb. Resets every two kills.
+              <ul>
+                <li>2 Charges (1st free)</li>
+                <li>Blind Duration: 1.5s</li>
+                <li>Cost: 250 credits</li>
+              </ul>
+            </li>
+            <li>
+              <strong>BLAZE:</strong> EQUIP a flame wall. FIRE to create a line of flame that moves forward. HOLD FIRE to bend. Blocks vision and damages players.
+              <ul>
+                <li>1 Charge</li>
+                <li>Duration: 8s</li>
+                <li>Damage: 30 dmg/s</li>
+                <li>Cost: 150 credits</li>
+              </ul>
+            </li>
+            <li>
+              <strong>HOT HANDS:</strong> EQUIP a fireball. FIRE to throw, explodes after set time or hitting ground. Creates lingering fire zone that damages enemies. ALT FIRE to lob.
+              <ul>
+                <li>1 Charge</li>
+                <li>Duration: 3.25s</li>
+                <li>Damage: 60 dmg/s</li>
+                <li>Cost: 200 credits</li>
+                <li>*Fun Fact: Used to be signature ability.*</li>
+              </ul>
+            </li>
+            <li><strong>HEATING UP (Passive):</strong> Passively heal Phoenix instead of taking damage when standing in his own fire. Heals 50 HP total.</li>
+            <li>
+              <strong>RUN IT BACK (Ultimate):</strong> INSTANTLY place a marker. While active, dying or timer expiring brings Phoenix back to marker with full health.
+              <ul>
+                <li>Cost: 6 Ultimate Points</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“Just take a seat, I got this.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JETT -->
+    <div id="modal-jett" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-jett')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/jett_body.png" alt="Jett Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">JETT</h2>
+          <p style="color: #aaa">DUELIST</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">
+            Jett is Agent 10 in VALORANT and one of the original Duelists available since the game’s release. Her real name is Han Sunwoo, a Radiant from Seoul, South Korea. Before joining the VALORANT Protocol, she worked as a chef at her family’s restaurant. Her life changed after an attack by her Omega Earth counterpart, which caused a destructive storm and destroyed the restaurant. Jett was later recruited into the VALORANT Protocol and became her world’s Jett. During a later incident in Venice caused by Omega-Jett, Jett was falsely blamed and labeled a threat by the public. Unable to
+            reveal the truth about alternate Earths, she was forced into hiding, making her conflict with her counterpart deeply personal. This agent is Nikko’s personal favorite to use!
+          </p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>TAILWIND (Signature):</strong> ACTIVATE to prepare a gust of wind. RE-USE to propel Jett in movement direction. Resets every two kills.
+              <ul>
+                <li>1 Charge</li>
+                <li>Dash window: 7.5s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>CLOUDBURST:</strong> INSTANTLY throw a projectile that expands into a brief vision-blocking cloud. HOLD key to curve smoke.
+              <ul>
+                <li>2 Charges</li>
+                <li>Cost: 200 credits</li>
+                <li>Duration: 2.5s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>UPDRAFT:</strong> INSTANTLY propel Jett high into the air.
+              <ul>
+                <li>1 Charge</li>
+                <li>Cost: 150 credits</li>
+              </ul>
+            </li>
+            <li><strong>DRIFT (Passive):</strong> Holding jump while falling allows gliding. Negates fall damage.</li>
+            <li>
+              <strong>BLADE STORM (Ultimate):</strong> EQUIP highly accurate throwing knives. FIRE single knife (recharges on kill). ALT FIRE all remaining daggers (no recharge).
+              <ul>
+                <li>Damage: 150 Head / 50 Body / 42 Legs</li>
+                <li>Cost: 8 Ultimate Points</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“Think you can keep up? Who am I kidding? You know you can’t keep up.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- REYNA -->
+    <div id="modal-reyna" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-reyna')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/reyna_body.png" alt="Reyna Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">REYNA</h2>
+          <p style="color: #aaa">DUELIST</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">
+            Reyna is Agent 11 in VALORANT and the first agent added outside of Closed Beta. Her real name is Zyanya Mondragón, a Radiant from Mexico with the ability to absorb life energy. After surviving a devastating incident involving machines, Reyna developed a deep hatred for technology. Before joining VALORANT, she founded the Sanctuary to help people escape Kingdom’s influence. Reyna joined the Protocol to protect her younger sister Lucia, transferring life energy to keep her alive. Driven by love, anger, and desperation, Reyna fights relentlessly.
+          </p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li><strong>SOUL HARVEST (Passive):</strong> Enemies killed by Reyna (or within 3s of damage) leave Soul Orbs lasting 3s.</li>
+            <li>
+              <strong>DISMISS (Signature):</strong> INSTANTLY consume a Soul Orb, becoming Intangible for 1.5s. If Empress active, also become Invisible.
+              <ul>
+                <li>2 Charges</li>
+                <li>Cost: 200 credits</li>
+              </ul>
+            </li>
+            <li>
+              <strong>DEVOUR (Signature 2):</strong> INSTANTLY consume a Soul Orb to rapidly heal. If Empress active, automatically casts without consuming orb.
+              <ul>
+                <li>2 Charges</li>
+                <li>Cost: 200 credits</li>
+                <li>Heals 50 HP over 2s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>LEER:</strong> EQUIP an ethereal eye. ACTIVATE to cast forward. Nearsights all enemies who look at it.
+              <ul>
+                <li>Cost: 250 credits</li>
+                <li>Duration: 1.6s</li>
+                <li>HP: 60</li>
+              </ul>
+            </li>
+            <li>
+              <strong>EMPRESS (Ultimate):</strong> INSTANTLY enter frenzy. Gain Combat Stim (speed boost) and infinite Soul Harvest charges.
+              <ul>
+                <li>+10% to Equip, Fire, Reload, Recovery speeds</li>
+                <li>Cost: 6 Ultimate Points</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“Ah, what hope do these criaturas have? I almost pity them.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RAZE -->
+    <div id="modal-raze" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-raze')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/raze_body.png" alt="Raze Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">RAZE</h2>
+          <p style="color: #aaa">DUELIST</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Raze is Agent 12 in VALORANT and one of the original Duelists available since Closed Beta. Her real name is Tayane Alves, an engineer from Salvador, Bahia, Brazil. Known for her love of explosives and paint, Raze opposed Kingdom Corporation’s operations in Bahia and helped force them out. Recruited as the 12th agent, she uses her chaotic skills to fight larger threats while keeping a close watch on her home.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>PAINT SHELLS (Signature):</strong> EQUIP a cluster grenade. FIRE to throw, doing damage and creating sub-munitions. ALT FIRE to lob. Resets every two kills.
+              <ul>
+                <li>1 Charge</li>
+                <li>Damage: 1-55 per shell</li>
+              </ul>
+            </li>
+            <li>
+              <strong>BOOM BOT:</strong> EQUIP a Boom Bot. FIRE to deploy. Travels straight, bouncing off walls. Locks onto enemies and explodes.
+              <ul>
+                <li>1 Charge</li>
+                <li>Cost: 300 credits</li>
+                <li>Duration: 5s / HP: 60</li>
+                <li>Damage: 30-80</li>
+              </ul>
+            </li>
+            <li>
+              <strong>BLAST PACK:</strong> INSTANTLY throw a Blast Pack that sticks to surfaces. RE-USE to detonate, moving/damaging anything hit.
+              <ul>
+                <li>2 Charges</li>
+                <li>Cost: 200 credits</li>
+                <li>Damage: 20-50</li>
+              </ul>
+            </li>
+            <li>
+              <strong>SHOWSTOPPER (Ultimate):</strong> EQUIP a rocket launcher. FIRE to shoot a rocket for massive area damage.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>Duration: 10s</li>
+                <li>Damage: 30-150</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“I promise I'll get 'em. Might take down a city block along the way but...hey. A win's a win”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- YORU -->
+    <div id="modal-yoru" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-yoru')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/yoru_body.png" alt="Yoru Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">YORU</h2>
+          <p style="color: #aaa">DUELIST</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Yoru is Agent 15 in VALORANT. His real name is Kiritani Ryo, a Radiant from Tokyo, Japan. Driven to uncover his past, he stole a samurai mask from Kingdom’s S22 port that allowed him to see into another dimension. Recruited as Yoru, he continues to investigate the dimensional rifts and his ancestry while serving the Protocol.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>GATECRASH (Signature):</strong> EQUIP a rift tether. FIRE to send forward, ALT FIRE to place stationary. ACTIVATE to teleport. USE to trigger fake teleport. Resets every two kills.
+              <ul>
+                <li>2 Charges (Cost: 150)</li>
+                <li>Duration: 30s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>FAKEOUT:</strong> EQUIP an echo. FIRE to activate mirror image forward. ALT FIRE to place inactive. Mirror images blind when destroyed.
+              <ul>
+                <li>1 Charge</li>
+                <li>Cost: 200 credits</li>
+                <li>Blind Duration: 2s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>BLINDSIDE:</strong> EQUIP to rip fragment. FIRE to throw, activates flash after bouncing off surface.
+              <ul>
+                <li>2 Charges</li>
+                <li>Cost: 250 credits</li>
+                <li>Blind Duration: 1.5s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>DIMENSIONAL DRIFT (Ultimate):</strong> EQUIP mask. FIRE to drift into dimension (invisible/invulnerable). REACTIVATE to exit early.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>Duration: 10s</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“Five enemies. Five for me, none for anyone else.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEON -->
+    <div id="modal-neon" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-neon')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/neon_body.png" alt="Neon Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">NEON</h2>
+          <p style="color: #aaa">DUELIST</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Neon is Agent 19 in VALORANT. Her real name is Tala Nicole Dimaapi Valdez, a Radiant from Manila, Philippines. Powered by bioelectric energy connected to the radianite mesh, she was recruited into the Protocol to help power an Alpha–Omega teleporter. She brings immense speed and electric power to the battlefield.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>HIGH GEAR (Signature):</strong> INSTANTLY channel power for Increased Speed. ALT FIRE to slide. Slide resets every two kills.
+              <ul>
+                <li>Duration: 10s max</li>
+                <li>150 credits for extra slide charge</li>
+              </ul>
+            </li>
+            <li>
+              <strong>FAST LANE:</strong> FIRE two energy lines that rise into static walls blocking vision.
+              <ul>
+                <li>1 Charge</li>
+                <li>Cost: 300 credits</li>
+                <li>Duration: 4s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>RELAY BOLT:</strong> INSTANTLY throw energy bolt that bounces once. Electrifies ground below with Concussive blast.
+              <ul>
+                <li>1 Charge</li>
+                <li>Cost: 200 credits</li>
+                <li>Concuss Duration: 2.5s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>OVERDRIVE (Ultimate):</strong> Unleash full power/speed. Regain fuel/slide. FIRE to channel deadly lightning beam.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>Duration: 20s min</li>
+                <li>Damage: 54-30 (Head), 18-10 (Body), 15-8 (Legs)</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">"You made me care. Big Mistake.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ISO MODAL -->
+    <div id="modal-iso" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-iso')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/iso_body.png" alt="Iso Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">ISO</h2>
+          <p style="color: #aaa">DUELIST</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Iso is Agent 24 in VALORANT. Real name Li Zhao Yu, a Radiant hitman from China ("Dead Lilac"). Formerly of the Scions of Hourglass, he joined VALORANT to find Omen. He turns intangible radianite energy into solid, protective constructs and challenges enemies to 1v1 duels.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>DOUBLE TAP (Signature):</strong> Channel focus. Gain shield that absorbs one instance of damage. Reload faster. Downed enemies spawn orb; shooting orb refreshes shield.
+              <ul>
+                <li>1 Charge</li>
+                <li>Duration: 12s</li>
+                <li>+25% Reload speed</li>
+              </ul>
+            </li>
+            <li>
+              <strong>CONTINGENCY:</strong> EQUIP prismatic energy. FIRE to push indestructible energy wall forward. ALT FIRE for slower wall.
+              <ul>
+                <li>1 Charge</li>
+                <li>Cost: 200 credits</li>
+                <li>Duration: 4.6s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>UNDERCUT:</strong> EQUIP molecular bolt. FIRE to throw forward through walls. Applies Vulnerable & Suppress.
+              <ul>
+                <li>1 Charge</li>
+                <li>Cost: 300 credits</li>
+                <li>Duration: 4s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>KILL CONTRACT (Ultimate):</strong> EQUIP interdimensional arena. FIRE to pull self and first enemy hit into 1v1 duel.
+              <ul>
+                <li>Cost: 7 Ultimate Points</li>
+                <li>Arena Duration: 13s</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“So, who has to die?"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WAYLAY -->
+    <div id="modal-waylay" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-waylay')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/waylay_body.png" alt="Waylay Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">WAYLAY</h2>
+          <p style="color: #aaa">DUELIST</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Waylay is Agent 28 in VALORANT. Her real name is Ariya Saengkaew, a Radiant from Thailand. Recruited by her friend Tejo, she brings confidence, speed, and veteran insight to the team, using light-based abilities to outmaneuver foes.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>REFRACT (Signature):</strong> INSTANTLY create light beacon. REACTIVATE to speed back to beacon (invulnerable). Resets every two kills.
+              <ul>
+                <li>1 Charge</li>
+                <li>Duration: 8s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>SATURATE:</strong> INSTANTLY throw light cluster that explodes on ground. Hinders nearby players (slow).
+              <ul>
+                <li>1 Charge</li>
+                <li>Cost: 300 credits</li>
+                <li>Duration: 3s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>LIGHTSPEED:</strong> EQUIP to prepare burst. FIRE to dash twice. ALT FIRE to dash once (first dash can go up).
+              <ul>
+                <li>1 Charge</li>
+                <li>Cost: 300 credits</li>
+              </ul>
+            </li>
+            <li>
+              <strong>CONVERGENT PATHS (Ultimate):</strong> EQUIP to focus. FIRE to create afterimage with beam. After delay, gain speed boost and beam expands to Hinder area.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>Speed Boost: 7s (+10%)</li>
+                <li>Hinder Duration: 6s</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“No one's gonna give you what you want. Work for it."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- KILLJOY -->
+    <div id="modal-killjoy" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-killjoy')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/killjoy_body.png" alt="Killjoy Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">KILLJOY</h2>
+          <p style="color: #aaa">SENTINEL</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Killjoy is Agent 04 in VALORANT. Klara Böhringer is a brilliant inventor from Germany who became head of Kingdom’s R&D at 18. Serving as VALORANT’s lead engineer, she uses her inventions like turrets and bots to lock down areas.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>TURRET (Signature):</strong> EQUIP a Turret. FIRE to deploy. Fires at enemies in 100 degree cone.
+              <ul>
+                <li>1 Charge (Cooldown: Recall 20s / Destroyed 60s)</li>
+                <li>HP: 100</li>
+                <li>Damage: 8 (0-20m) / 6 (20-35m) / 4 (35m+) per shot</li>
+              </ul>
+            </li>
+            <li>
+              <strong>ALARMBOT:</strong> EQUIP covert Alarmbot. FIRE to deploy. Hunts enemies in range, explodes, and applies Vulnerable.
+              <ul>
+                <li>1 Charge (Cost: 200)</li>
+                <li>Cooldown (Recall): 20s</li>
+                <li>Vulnerable Duration: 4s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>NANOSWARM:</strong> EQUIP Nanoswarm grenade. FIRE to throw. Goes covert. ACTIVATE to deploy damaging swarm.
+              <ul>
+                <li>2 Charges (Cost: 200 each)</li>
+                <li>Damage: 45 dmg/s</li>
+                <li>Duration: 4s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>LOCKDOWN (Ultimate):</strong> EQUIP device. FIRE to deploy. After windup, Detains all enemies in radius.
+              <ul>
+                <li>Cost: 9 Ultimate Points</li>
+                <li>Duration: 13s / HP: 200</li>
+                <li>Detain Duration: 8s</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">"I built literally everything on this battlefield. Ja, even the things that might kill us. What? You want me to say sorry?"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CYPHER -->
+    <div id="modal-cypher" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-cypher')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/cypher_body.png" alt="Cypher Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">CYPHER</h2>
+          <p style="color: #aaa">SENTINEL</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Cypher is Agent 05 in VALORANT. Amir El Amari from Morocco is a master information broker. He keeps watch over the enemy's moves with his spy network, revealing their locations while keeping his own secrets hidden.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>SPYCAM (Signature):</strong> EQUIP spycam. FIRE to place. RE-USE to view. FIRE marking dart to Reveal enemies.
+              <ul>
+                <li>1 Charge (Cooldown: Recall 15s / Destroyed 60s)</li>
+                <li>Dart Cooldown: 6s</li>
+                <li>Reveals location every 2s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>TRAPWIRE:</strong> EQUIP trapwire. FIRE to place between walls. Enemies crossing are Tethered, Revealed, and Slowed.
+              <ul>
+                <li>2 Charges (Cost: 200 each)</li>
+                <li>Damage: 5 (if triggered)</li>
+                <li>Slow: 50%</li>
+              </ul>
+            </li>
+            <li>
+              <strong>CYBER CAGE:</strong> Toss cage. ACTIVATE to block vision and play audio when enemies pass through.
+              <ul>
+                <li>2 Charges (Cost: 100 each)</li>
+                <li>Duration: 7.25s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>NEURAL THEFT (Ultimate):</strong> Use on dead enemy to Reveal location of all living enemies twice.
+              <ul>
+                <li>Cost: 7 Ultimate Points</li>
+                <li>Reveals: 2 times over 4s</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“I will stop anyone who tries to come through. I must keep my secrets with me.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SAGE -->
+    <div id="modal-sage" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-sage')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/sage_body.png" alt="Sage Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">SAGE</h2>
+          <p style="color: #aaa">SENTINEL</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Sage is Agent 07 in VALORANT. Wei Ling Ying, a monk from China, heals allies and resurrects the fallen. She is vital to keeping the team alive and fighting.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>HEALING ORB (Signature):</strong> EQUIP healing orb. FIRE to heal ally or ALT FIRE to heal self.
+              <ul>
+                <li>1 Charge (Cooldown: 45s)</li>
+                <li>Heals: 100 HP (Ally) / 50 HP (Self)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>BARRIER ORB:</strong> EQUIP barrier orb. FIRE to place wall. Fortifies after a few seconds.
+              <ul>
+                <li>1 Charge (Cost: 300)</li>
+                <li>Duration: 40s</li>
+                <li>HP: 400 (Base) / 600 (Fortified)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>SLOW ORB:</strong> EQUIP slowing orb. FIRE to throw. Creates lingering field that Slows players.
+              <ul>
+                <li>2 Charges (Cost: 200 each)</li>
+                <li>Duration: 7s</li>
+                <li>Slow: 50%</li>
+              </ul>
+            </li>
+            <li>
+              <strong>RESURRECTION (Ultimate):</strong> EQUIP resurrection. FIRE on dead ally to revive them with full health.
+              <ul>
+                <li>Cost: 7 Ultimate Points</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“I wasn't strong enough before. But now, now I am strong enough for us all. “</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CHAMBER -->
+    <div id="modal-chamber" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-chamber')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/chamber_body.png" alt="Chamber Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">CHAMBER</h2>
+          <p style="color: #aaa">SENTINEL</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Chamber is Agent 18 in VALORANT. Vincent Fabron, a French weapons designer, uses custom weaponry to hold down territory. He plays with style and precision.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>RENDEZVOUS (Signature):</strong> EQUIP teleport anchor. FIRE to place. REACTIVATE to teleport to anchor.
+              <ul>
+                <li>1 Charge (Cooldown: 30s)</li>
+                <li>HP: 50</li>
+              </ul>
+            </li>
+            <li>
+              <strong>TRADEMARK:</strong> EQUIP trap. FIRE to place. Scans enemies and destabilizes terrain (Slows) when triggered.
+              <ul>
+                <li>1 Charge (Cost: 200)</li>
+                <li>Slow Duration: 4s / Slow: 50%</li>
+              </ul>
+            </li>
+            <li>
+              <strong>HEADHUNTER:</strong> ACTIVATE to equip heavy pistol. ADS capable.
+              <ul>
+                <li>8 Bullets (Cost: 100 each)</li>
+                <li>Damage: 159 (Head) / 55 (Body) / 46 (Legs)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>TOUR DE FORCE (Ultimate):</strong> Summon custom sniper rifle. One-hit kill. Kills create Slow field.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>5 Bullets</li>
+                <li>Damage: 255 (Head) / 150 (Body) / 127 (Legs)</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“Do not worry, with me this will be easy. C'est simple comme bonjour."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEADLOCK -->
+    <div id="modal-deadlock" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-deadlock')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/deadlock_body.png" alt="Deadlock Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">DEADLOCK</h2>
+          <p style="color: #aaa">SENTINEL</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Deadlock is Agent 23 in VALORANT. Iselin Solem, a Norwegian operative, uses nanowire technology to secure the battlefield. She lost her arm to a radivore and now hunts them down.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>GRAVNET (Signature):</strong> EQUIP grenade. FIRE to throw. Detonates to crouch and Slow enemies.
+              <ul>
+                <li>1 Charge (Cooldown: 60s)</li>
+                <li>Slow: 70%</li>
+              </ul>
+            </li>
+            <li>
+              <strong>BARRIER MESH:</strong> EQUIP disc. FIRE to throw. Generates barrier blocking movement.
+              <ul>
+                <li>1 Charge (Cost: 300)</li>
+                <li>Duration: 30s</li>
+                <li>HP: 680 (Outer) / 1200 (Central fortified)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>SONIC SENSOR:</strong> EQUIP sensor. FIRE to deploy. Concusses area if sound detected.
+              <ul>
+                <li>2 Charges (Cost: 200 each)</li>
+                <li>Concuss Duration: 2.5s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>ANNIHILATION (Ultimate):</strong> EQUIP Nanowire Accelerator. FIRE to capture enemy in cocoon. Pulls them to death unless freed.
+              <ul>
+                <li>Cost: 7 Ultimate Points</li>
+                <li>Cocoon HP: 600</li>
+                <li>Timer to death: 7s</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“As long as I live, so does every Ståljeger before me. To battle, my sisters."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VYSE -->
+    <div id="modal-vyse" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-vyse')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/vyse_body.png" alt="Vyse Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">VYSE</h2>
+          <p style="color: #aaa">SENTINEL</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Vyse is Agent 26 in VALORANT. A metallic Radiant researcher, she uses liquid metal to isolate and disarm enemies. She escaped imprisonment by Hourglass and joined VALORANT.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>ARC ROSE (Signature):</strong> EQUIP Arc Rose. FIRE to place hidden. RE-USE to Blind players looking at it.
+              <ul>
+                <li>1 Charge (Cooldown: 20s recall / 60s destroy)</li>
+                <li>Blind Duration: 2s</li>
+                <li>HP: 20</li>
+              </ul>
+            </li>
+            <li>
+              <strong>RAZORVINE:</strong> EQUIP liquid metal nest. FIRE to launch. Invisible until activated. Slows and Damages enemies.
+              <ul>
+                <li>2 Charges (Cost: 150 each)</li>
+                <li>Duration: 6s / Slow: 15%</li>
+                <li>Damage: 10 per distance moved</li>
+              </ul>
+            </li>
+            <li>
+              <strong>SHEAR:</strong> EQUIP liquid metal filaments. FIRE to place wall trap. Indestructible wall bursts behind enemy who crosses.
+              <ul>
+                <li>1 Charge (Cost: 200)</li>
+                <li>Wall Duration: 6s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>STEEL GARDEN (Ultimate):</strong> EQUIP bramble. FIRE to jam enemy primary weapons.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>Jam Duration: 8s</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“History doesn't remember the almosts. We'll be the best, or we'll be forgotten."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VETO -->
+    <div id="modal-veto" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-veto')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/veto_body.png" alt="Veto Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">VETO</h2>
+          <p style="color: #aaa">SENTINEL</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Veto is Agent 29 in VALORANT. Hailing from Senegal, he disrupts and nullifies enemy tech with his DNA mutation. He forces combat back to raw skill.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>INTERCEPTOR (Signature):</strong> EQUIP Interceptor. FIRE to place. RE-USE to activate. Destroys utility that bounces off players/can be shot.
+              <ul>
+                <li>1 Charge</li>
+                <li>Duration: 9s</li>
+                <li>HP: 20</li>
+              </ul>
+            </li>
+            <li>
+              <strong>CROSSCUT:</strong> EQUIP vortex. FIRE to place. ACTIVATE to teleport to vortex (requires line of sight).
+              <ul>
+                <li>2 Charges (Cost: 200 each)</li>
+                <li>HP: 20</li>
+              </ul>
+            </li>
+            <li>
+              <strong>CHOKEHOLD:</strong> EQUIP fragment. FIRE to throw. Creates trap that Deafens, Decays, Tethers enemies.
+              <ul>
+                <li>1 Charge (Cost: 200)</li>
+                <li>Decay: 75 HP (restored over 4.5s)</li>
+                <li>HP: 20</li>
+              </ul>
+            </li>
+            <li>
+              <strong>EVOLUTION (Ultimate):</strong> Mutate to gain Combat Stim, Regen, and Debuff Immunity.
+              <ul>
+                <li>Cost: 7 Ultimate Points</li>
+                <li>Buffs: +10% Speed/Fire Rate/Reload/Equip</li>
+                <li>Heal: 40 HP/s if damaged</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“Rule number one: hit your shots.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SOVA -->
+    <div id="modal-sova" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-sova')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/sova_body.png" alt="Sova Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">SOVA</h2>
+          <p style="color: #aaa">INITIATOR</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">
+            Sova is Agent 06 in VALORANT and one of the original Initiators available since the Closed Beta. His real name is Sasha Novikov, an archer from Severomorsk in Murmansk Oblast, Russia. After losing his right eye, it was replaced with a mechanical one, enhancing his ability to scout and track enemies. Recruited into the VALORANT Protocol as its sixth agent, “Sova” serves as the team’s primary reconnaissance specialist, using both advanced technology and traditional hunting methods to gather information. Having experienced multiple radianite-related events, including traveling through
+            a rift and encountering his Omega counterpart, Sova has proven himself highly capable and dependable. Because of this, he is regarded as one of the Protocol’s most trusted agents, particularly by its commander, Brimstone.
+          </p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>RECON BOLT (Signature):</strong> EQUIP a bow with a recon bolt. FIRE to send forward. Revealing location of nearby enemies in line of sight.
+              <ul>
+                <li>1 Charge (Cooldown: 60s)</li>
+                <li>Duration: 3.2s</li>
+                <li>HP: 20</li>
+              </ul>
+            </li>
+            <li>
+              <strong>OWL DRONE:</strong> EQUIP an owl drone. FIRE to deploy and control. FIRE marking dart to Reveal location.
+              <ul>
+                <li>1 Charge (Cost: 400)</li>
+                <li>Duration: 7s / HP: 100</li>
+                <li>Reveal Duration: 5s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>SHOCK BOLT:</strong> EQUIP a bow with a shock bolt. FIRE to send explosive bolt. Detonates on collision.
+              <ul>
+                <li>2 Charges (Cost: 150 each)</li>
+                <li>Damage: 1-75</li>
+              </ul>
+            </li>
+            <li>
+              <strong>HUNTER'S FURY (Ultimate):</strong> EQUIP a bow with three long-range, wall-piercing energy blasts. FIRE to release a blast in a line.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>Damage: 80</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“I believe in all of you, like I believe in myself"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BREACH -->
+    <div id="modal-breach" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-breach')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/breach_body.png" alt="Breach Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">BREACH</h2>
+          <p style="color: #aaa">INITIATOR</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Breach is Agent 13 in VALORANT. His real name is Erik Torsten, a criminal from Sweden who was born a double congenital amputee. After building powerful mechanical arms, he became infamous and was exiled. Recruited into the VALORANT Protocol, he sealed his criminal records and now uses his strength for a greater cause.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>FAULT LINE (Signature):</strong> EQUIP a seismic blast. HOLD FIRE to increase distance. RELEASE to set off quake, Concussing all players.
+              <ul>
+                <li>1 Charge (Cooldown: 60s)</li>
+                <li>Concuss Duration: 2.5s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>AFTERSHOCK:</strong> EQUIP fusion charge. FIRE to set slow-acting burst through wall. Heavy damage to anyone caught.
+              <ul>
+                <li>1 Charge (Cost: 200)</li>
+                <li>Damage: 80 per tick (3 ticks)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>FLASHPOINT:</strong> EQUIP blinding charge. FIRE to set fast-acting burst through wall. Blinds players looking at it.
+              <ul>
+                <li>2 Charges (Cost: 250 each)</li>
+                <li>Blind Duration: 2.25s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>ROLLING THUNDER (Ultimate):</strong> EQUIP Seismic Charge. FIRE to send cascading quake. Concusses and knocks up anyone caught.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>Concuss Duration: 4s</li>
+                <li>Knockback: 7m</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“They're not intimidating, they're stupid. Big difference."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SKYE -->
+    <div id="modal-skye" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-skye')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/skye_body.png" alt="Skye Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">SKYE</h2>
+          <p style="color: #aaa">INITIATOR</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Skye is Agent 14 in VALORANT. Her real name is Kirra Foster, a Radiant from Nimbin, Australia ("Great Reclaimer"). She spent years fighting against Kingdom Corporation. Initially hesitant to join VALORANT, she accepted after learning of the global threat posed by the rifts.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>GUIDING LIGHT (Signature):</strong> EQUIP hawk trinket. FIRE to send forward. HOLD FIRE to guide. RE-USE to flash.
+              <ul>
+                <li>2 Charges (Cost: 250) - Does NOT refresh</li>
+                <li>Blind Duration: 1-2.25s</li>
+                <li>Duration: 2s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>REGROWTH:</strong> EQUIP healing trinket. HOLD FIRE to channel, Healing allies in range. Cannot heal self.
+              <ul>
+                <li>1 Charge (Cost: 150)</li>
+                <li>Heal Pool: 100 HP (20 HP/s)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>TRAILBLAZER:</strong> EQUIP tiger trinket. FIRE to control. FIRE to leap and explode in Concussive blast/damage.
+              <ul>
+                <li>1 Charge (Cost: 300)</li>
+                <li>Duration: 6s / HP: 80</li>
+                <li>Concuss: 2.5-4s / Damage: 30</li>
+              </ul>
+            </li>
+            <li>
+              <strong>SEEKERS (Ultimate):</strong> EQUIP Seeker trinket. FIRE to send three Seekers to track closest enemies. Nearsights on impact.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>Duration: 15s / HP: 120 each</li>
+                <li>Nearsight: 3s</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“We know what we're doing. Trust each other and we'll be fine.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- KAY/O -->
+    <div id="modal-kayo" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-kayo')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/kayo_body.png" alt="KAY/O Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">KAY/O</h2>
+          <p style="color: #aaa">INITIATOR</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">KAY/O is Agent 16 in VALORANT. He is a robot from an alternate future built to suppress Radiants. After a devastating war, he traveled back in time to the present day to change the future, fighting alongside the Protocol despite his past.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>ZERO/POINT (Signature):</strong> EQUIP suppression blade. FIRE to throw. Sticks and Suppresses anyone in radius.
+              <ul>
+                <li>1 Charge (Cooldown: 60s)</li>
+                <li>Suppression: 8s / HP: 20</li>
+              </ul>
+            </li>
+            <li>
+              <strong>FRAG/MENT:</strong> EQUIP explosive fragment. FIRE to throw. Sticks to floor and explodes multiple times.
+              <ul>
+                <li>1 Charge (Cost: 200)</li>
+                <li>Damage: 25-60 per tick (4 ticks)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>FLASH/DRIVE:</strong> EQUIP flash grenade. FIRE to throw. ALT FIRE to lob (explodes quickly).
+              <ul>
+                <li>2 Charges (Cost: 250 each)</li>
+                <li>Blind Duration: 2.25s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>NULL/CMD (Ultimate):</strong> INSTANTLY Overload. Pulses Suppress enemies. Gains Combat Stim. Can be re-stabilized if downed.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>Duration: 12s</li>
+                <li>Suppression: 4s per pulse</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“We have one job; save this Earth. No excuses"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FADE -->
+    <div id="modal-fade" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-fade')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/fade_body.png" alt="Fade Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">FADE</h2>
+          <p style="color: #aaa">INITIATOR</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Fade is Agent 20 in VALORANT. A Radiant from Türkiye, Hazal Eyletmez can manipulate nightmares. After a misunderstanding regarding a missing person, she joined VALORANT to find answers, using her fear-based abilities to gather intel.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>HAUNT (Signature):</strong> EQUIP haunting watcher. FIRE to throw. RE-USE to drop early. Reveals enemies and creates terror trails.
+              <ul>
+                <li>1 Charge (Cooldown: 60s)</li>
+                <li>Reveal: 1.5s / Trail: 12s</li>
+                <li>HP: 1</li>
+              </ul>
+            </li>
+            <li>
+              <strong>PROWLER:</strong> EQUIP prowler. FIRE to send forward. HOLD FIRE to steer. Chases enemy/trail and Nearsights on impact.
+              <ul>
+                <li>2 Charges (Cost: 250 each)</li>
+                <li>Duration: 2.5s / HP: 60</li>
+                <li>Nearsight: 2.75s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>SEIZE:</strong> EQUIP knot of fear. FIRE to throw. RE-USE to drop. Tethers, Deafens, and Decays enemies.
+              <ul>
+                <li>1 Charge (Cost: 200)</li>
+                <li>Duration: 4.5s</li>
+                <li>Decays 75 HP</li>
+              </ul>
+            </li>
+            <li>
+              <strong>NIGHTFALL (Ultimate):</strong> EQUIP nightmare power. FIRE to unleash wave. Enemies are Trailed, Deafened, and Decayed.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>Decays 75 HP</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“It doesn't matter where they hide, I'll find them. I always find them.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GEKKO -->
+    <div id="modal-gekko" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-gekko')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/gekko_body.png" alt="Gekko Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">GEKKO</h2>
+          <p style="color: #aaa">INITIATOR</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Gekko is Agent 22 in VALORANT. Born in Los Angeles, Mateo Armendáriz De la Fuente fights alongside his four radianite creatures: Dizzy, Mosh, Thrash, and Wingman. He can reclaim his friends after using them.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>DIZZY (Signature):</strong> EQUIP Dizzy. FIRE to send forward. Unleashes plasma blasts that Blind enemies.
+              <ul>
+                <li>1 Charge (Reclaimable)</li>
+                <li>Blind Duration: 1s</li>
+                <li>HP: 20</li>
+              </ul>
+            </li>
+            <li>
+              <strong>WINGMAN:</strong> EQUIP Wingman. FIRE to send seeking enemies (Concusses). ALT FIRE to Plant/Defuse Spike.
+              <ul>
+                <li>1 Charge (Cost: 300) - Reclaimable</li>
+                <li>Concuss: 2.5s / HP: 60</li>
+              </ul>
+            </li>
+            <li>
+              <strong>MOSH PIT:</strong> EQUIP Mosh. FIRE to throw. Duplicates across area dealing massive damage after delay.
+              <ul>
+                <li>1 Charge (Cost: 250)</li>
+                <li>Damage: 25-50 per tick (3 ticks)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>THRASH (Ultimate):</strong> EQUIP Thrash. FIRE to steer. ACTIVATE to lunge and Detain enemies.
+              <ul>
+                <li>Cost: 8 Ultimate Points - Reclaimable once</li>
+                <li>Detain: 6s / HP: 180</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“Okay lil' homies, teamwork on three. One, two, three!”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TEJO -->
+    <div id="modal-tejo" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-tejo')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/tejo_body.png" alt="Tejo Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">TEJO</h2>
+          <p style="color: #aaa">INITIATOR</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Tejo is Agent 27 in VALORANT. A former intelligence consultant from Colombia, he returned from retirement to join the Protocol. He uses experience and planning to confront new threats.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>GUIDED SALVO (Signature):</strong> EQUIP targeting system. FIRE to select locations. ALT FIRE to launch autonomous missiles.
+              <ul>
+                <li>2 Charges (Cost: 150) - Does NOT refresh</li>
+                <li>Damage: 50-65 per tick (3 ticks)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>STEALTH DRONE:</strong> EQUIP stealth drone. FIRE to throw and control. FIRE again to Suppress and Reveal enemies.
+              <ul>
+                <li>1 Charge (Cost: 400)</li>
+                <li>Reveal/Suppress: 8s / HP: 42</li>
+              </ul>
+            </li>
+            <li>
+              <strong>SPECIAL DELIVERY:</strong> EQUIP sticky grenade. FIRE to launch. Explodes and Concusses targets.
+              <ul>
+                <li>1 Charge (Cost: 200)</li>
+                <li>Concuss: 2.75-4s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>ARMAGEDDON (Ultimate):</strong> EQUIP tactical strike map. Select origin and end point to unleash lethal explosions along path.
+              <ul>
+                <li>Cost: 9 Ultimate Points</li>
+                <li>Damage: 60 per tick (4 ticks)</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“This is no little game of banquitas. Focus, or we carry you home in a body bag.“</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BRIMSTONE -->
+    <div id="modal-brimstone" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-brimstone')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/brimstone_body.png" alt="Brimstone Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">BRIMSTONE</h2>
+          <p style="color: #aaa">CONTROLLER</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Brimstone is Agent 01 in VALORANT. Liam Byrne, a former firefighter and soldier from Baltimore, commands the VALORANT Protocol. After losing a close ally, he dedicated himself to preventing disasters. He guides agents from around the world to stop radianite threats.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>SKY SMOKE (Signature):</strong> EQUIP tactical map. FIRE to set locations. ALT FIRE to launch long-lasting smoke clouds.
+              <ul>
+                <li>3 Charges (Cost: 100 each)</li>
+                <li>Duration: 19.25s (Longest smoke)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>STIM BEACON:</strong> INSTANTLY toss stim beacon. Creates field granting Combat Stim and Speed Boost.
+              <ul>
+                <li>1 Charge (Cost: 200)</li>
+                <li>Duration: 12s / Boost: +10% Speed/Fire Rate</li>
+              </ul>
+            </li>
+            <li>
+              <strong>INCENDIARY:</strong> EQUIP grenade launcher. FIRE to launch grenade that creates lingering fire zone.
+              <ul>
+                <li>1 Charge (Cost: 250)</li>
+                <li>Duration: 7s / Damage: 60 dmg/s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>ORBITAL STRIKE (Ultimate):</strong> EQUIP tactical map. FIRE to launch orbital laser strike dealing high DOT.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>Duration: 3s / Damage: 20 per tick</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“Alright team, let's go write this war story shall we?"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VIPER -->
+    <div id="modal-viper" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-viper')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/viper_body.png" alt="Viper Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">VIPER</h2>
+          <p style="color: #aaa">CONTROLLER</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Viper is Agent 02 in VALORANT. Sabine Callas is an American chemist who rediscovered radianite. Serving as Brimstone's second-in-command, she uses poisonous chemical devices to control the battlefield and cripple enemies' vision.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>TOXIC SCREEN (Signature):</strong> EQUIP gas emitter launcher. FIRE to deploy line. RE-USE to create wall of toxic gas (costs fuel).
+              <ul>
+                <li>1 Charge (Re-usable)</li>
+                <li>Inflicts Decay (-10 HP + -10 HP/s)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>SNAKE BITE:</strong> EQUIP chemical launcher. FIRE to launch canister creating chemical zone. Damages and applies Vulnerable.
+              <ul>
+                <li>2 Charges (Cost: 300 each)</li>
+                <li>Duration: 6.5s / Damage: 12.5 dmg/s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>POISON CLOUD:</strong> EQUIP gas emitter. FIRE to throw. RE-USE to create toxic gas cloud (costs fuel). Can be picked up.
+              <ul>
+                <li>1 Charge (Cost: 200)</li>
+                <li>Inflicts Decay</li>
+              </ul>
+            </li>
+            <li>
+              <strong>VIPER’S PIT (Ultimate):</strong> EQUIP chemical sprayer. FIRE to create large cloud. Nearsights and Decays enemies. Lasts indefinitely while Viper is inside.
+              <ul>
+                <li>Cost: 9 Ultimate Points</li>
+                <li>Exit Timer: 8s</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">"They call me a monster. Shall I prove them right?"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OMEN -->
+    <div id="modal-omen" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-omen')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/omen_body.png" alt="Omen Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">OMEN</h2>
+          <p style="color: #aaa">CONTROLLER</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Omen is Agent 03 in VALORANT. A phantom radiant with a mysterious past, he was once an assassin named Ghost. He hunts in the shadows, blinding enemies, teleporting across the field, and letting paranoia take hold.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>DARK COVER (Signature):</strong> EQUIP shadow orb. PRESS to throw to marked location creating long-lasting shadow sphere.
+              <ul>
+                <li>2 Charges (1 Free, 1 Cost: 150)</li>
+                <li>Duration: 15s / Cooldown: 40s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>SHROUDED STEP:</strong> EQUIP teleport ability. FIRE to teleport to marked location.
+              <ul>
+                <li>2 Charges (Cost: 100 each)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>PARANOIA:</strong> EQUIP blinding orb. FIRE to throw forward through walls. Nearsights and Deafens players.
+              <ul>
+                <li>1 Charge (Cost: 250)</li>
+                <li>Nearsight Duration: 2s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>FROM THE SHADOWS (Ultimate):</strong> EQUIP tactical map. FIRE to teleport anywhere. Appears as Shade (can be destroyed).
+              <ul>
+                <li>Cost: 7 Ultimate Points</li>
+                <li>Teleport time: 4s</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“If I must live in this nightmare, my enemies might as well join me.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ASTRA -->
+    <div id="modal-astra" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-astra')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/astra_body.png" alt="Astra Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">ASTRA</h2>
+          <p style="color: #aaa">CONTROLLER</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Astra is Agent 16 in VALORANT. Efia Danso is a Radiant from Ghana who wields cosmic powers. She places stars on the map which she can transform into nebulas, concussive pulses, or gravity wells.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>STARS (Signature):</strong> Place Stars in Astral Form. Transform into other abilities.
+              <ul>
+                <li>5 Charges (Cost: 150 each)</li>
+              </ul>
+            </li>
+            <li>
+              <strong>GRAVITY WELL:</strong> Pulls players toward center then explodes, making them Vulnerable.
+              <ul>
+                <li>Cooldown: 60s / Vulnerable: 2.5s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>NOVA PULSE:</strong> Concusses all players in area.
+              <ul>
+                <li>Cooldown: 60s / Concuss: 2.5s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>NEBULA/DISSIPATE:</strong> Transform Star into Smoke. Dissipate returns Star after delay.
+              <ul>
+                <li>Nebula Duration: 14.25s</li>
+                <li>Dissipate Duration: 1s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>COSMIC DIVIDE (Ultimate):</strong> Select two points to create infinite wall blocking bullets and sound.
+              <ul>
+                <li>Cost: 7 Ultimate Points</li>
+                <li>Duration: 21s</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">“You can tell a person's character by their first action. Check me then, eh?"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HARBOR -->
+    <div id="modal-harbor" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-harbor')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/harbor_body.png" alt="Harbor Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">HARBOR</h2>
+          <p style="color: #aaa">CONTROLLER</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Harbor is Agent 21 in VALORANT. Varun Batra is a former task force agent from India bonded to an ancient water artifact. He commands a mix of tides and torrents to shield allies and pummel opponents.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>COVE (Signature):</strong> ACTIVATE to form water Smoke. REACTIVATE to Shield it (blocks bullets).
+              <ul>
+                <li>1 Charge (Cooldown: 40s)</li>
+                <li>Duration: 15s / Shield HP: 500</li>
+              </ul>
+            </li>
+            <li>
+              <strong>STORM SURGE:</strong> FIRE to throw explosive whirlpool. Slows and Nearsights enemies.
+              <ul>
+                <li>1 Charge (Cost: 200)</li>
+                <li>Nearsight: 2s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>HIGH TIDE:</strong> FIRE to send water wall forward. GUIDE with crosshair. Slows players crossing it.
+              <ul>
+                <li>1 Charge (Cost: 300)</li>
+                <li>Duration: 15s / Slow: 30%</li>
+              </ul>
+            </li>
+            <li>
+              <strong>RECKONING (Ultimate):</strong> Unleash full power. Geyser strikes Nearsight and Slow enemies.
+              <ul>
+                <li>Cost: 7 Ultimate Points</li>
+                <li>Nearsight: 7s</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">"Look at us! I've never seen a more beautiful group of heavily armed soldiers."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CLOVE -->
+    <div id="modal-clove" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-clove')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/agents/clove_body.png" alt="Clove Full Body" />
+          <h2 style="margin-top: 10px; color: #ff4655">CLOVE</h2>
+          <p style="color: #aaa">CONTROLLER</p>
+        </div>
+        <div class="modal-text-container">
+          <h3>Description</h3>
+          <p style="margin-bottom: 20px; color: #ddd">Clove is Agent 25 in VALORANT. A young Radiant from Scotland with power over life and death. Clove can self-revive and use abilities even after death to support the team.</p>
+          <h3>Abilities</h3>
+          <ul class="ability-list">
+            <li>
+              <strong>RUSE (Signature):</strong> EQUIP view of battlefield. FIRE to set clouds. Usable after death (limited range).
+              <ul>
+                <li>2 Charges (Cost: 150)</li>
+                <li>Duration: 13.5s / Cooldown: 40s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>PICK-ME-UP:</strong> Absorb life force of fallen enemy. Gain Haste and Overheal.
+              <ul>
+                <li>1 Charge (Cost: 200)</li>
+                <li>Speed: +15% / Overheal: 50 HP</li>
+              </ul>
+            </li>
+            <li>
+              <strong>MEDDLE:</strong> Throw fragment that erupts and Decays targets.
+              <ul>
+                <li>1 Charge (Cost: 250)</li>
+                <li>Decay: 90 HP for 5s</li>
+              </ul>
+            </li>
+            <li>
+              <strong>NOT DEAD YET (Ultimate):</strong> After dying, ACTIVATE to resurrect. Must earn kill/assist or die again.
+              <ul>
+                <li>Cost: 8 Ultimate Points</li>
+                <li>Timer: 10s to get kill</li>
+              </ul>
+            </li>
+          </ul>
+          <div style="margin-top: 30px; padding: 15px; background: #111; border-left: 3px solid #ff4655">
+            <p style="font-style: italic">"It's fun being a secret agent and all, but I really hope that there's an alternate universe out there where I'm just growing old with a bunch of cats."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BACKGROUND MUSIC -->
+    <audio id="bg-music" loop autoplay>
+      <source src="audio/valorant_theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- PLAY BUTTON -->
+    <button id="music-btn" class="music-btn">❚❚</button>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-logo">
+          <h3 style="color: #ff4655">VALORANT</h3>
+          <p style="font-size: 0.8rem; letter-spacing: 2px">BEYOND THE CROSSHAIR</p>
+        </div>
+
+        <p style="margin-top: 20px; font-size: 0.9rem">&copy; 2025 Valorant: Beyond the Crosshair. All rights reserved.</p>
+
+        <div class="footer-portfolio" style="margin-top: 10px; font-size: 0.9rem">
+          <p>Our other works: <a href="https://aamir0316.github.io/2QPortfolioLiVibal/">Aamir's Portfolio</a> | <a href="https://nikkodizon.github.io/2QPortfolioLiDizon/index.html">Nikko's Portfolio</a></p>
+        </div>
+
+        <div class="citations">
+          <h4>Sources</h4>
+          <p>Riot Games. (2020). <i>Valorant</i> [Video game]. Riot Games.</p>
+          <p>VALORANT Wiki. (n.d.). <i>Valorant wiki</i>. Fandom. https://valorant.fandom.com/wiki/VALORANT_Wiki</p>
+          <p>ESPN Esports. (2020, April 4). What is VALORANT? - a guide to Riot's new FPS. Youtube. https://www.youtube.com/watch?v=9omyVqrXhOg</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

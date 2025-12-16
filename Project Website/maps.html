@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="description" content="2Q Portfolio">
+    <meta name="keywords" content="2Q, Portfolio, Projects, Web Development">
+    <meta name="Erwyn Aamir M. Vibal" content="2Q">
+    <title>VALORANT: Beyond the Crosshair - Maps</title>
+    <link rel="stylesheet" href="css/styles.css"/>   
+    <link rel="icon" href="../Proposal/Logo2.png" sizes="16x16" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="loader">
+      <svg class="loader-svg" width="200" height="200" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="loader-ring" style="transform-origin: 50px 50px">
+          <circle cx="50" cy="50" r="34" stroke="#E72632" stroke-width="4" stroke-dasharray="50 10" />
+        </g>
+        <g fill="#E72632">
+          <path d="M33 35H43L50 52L57 35H67L50 68L33 35Z" />
+          <rect x="45.5" y="2" width="9" height="22" />
+          <rect x="45.5" y="76" width="9" height="22" />
+          <rect x="2" y="45.5" width="22" height="9" />
+          <rect x="76" y="45.5" width="22" height="9" />
+        </g>
+      </svg>
+      <h2 style="margin-top: 20px">INITIATING...</h2>
+    </div>
+
+    <nav>
+      <div class="nav-container">
+        <a href="index.html">
+          <svg height="60" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="valorant-symbol-nav" fill="#FF4655">
+              <path d="M36 38H44L50 51L56 38H64L50 63L36 38Z" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M50 82C67.6731 82 82 67.6731 82 50C82 32.3269 67.6731 18 50 18C32.3269 18 18 32.3269 18 50C18 67.6731 32.3269 82 50 82ZM50 90C72.0914 90 90 72.0914 90 50C90 27.9086 72.0914 10 50 10C27.9086 10 10 27.9086 10 50C10 72.0914 27.9086 90 50 90Z" />
+              <rect x="46" y="2" width="8" height="20" />
+              <rect x="46" y="78" width="8" height="20" />
+              <rect x="2" y="46" width="20" height="8" />
+              <rect x="78" y="46" width="20" height="8" />
+            </g>
+            <g fill="#0F1923" font-family="'Oswald', sans-serif" style="text-transform: uppercase">
+              <text x="110" y="62" font-size="60" font-weight="900" fill="white">Valorant</text>
+              <text x="112" y="85" font-size="14" font-weight="700" letter-spacing="1.5" fill="#aaa">Beyond The Crosshair</text>
+            </g>
+          </svg>
+        </a>
+        <div class="menu-toggle" id="mobile-menu-btn">☰</div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="agents.html">AGENTS</a></li>
+          <li><a href="maps.html" style="color: #ff4655">MAPS</a></li>
+          <li><a href="weapons.html">WEAPONS</a></li>
+          <li><a href="gamemodes.html">GAMEMODES</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="maps" class="page-section">
+      <div class="container">
+        <div style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/maps/sunset.jpg'); background-size: cover; padding: 60px 20px; border-bottom: 4px solid #ff4655; margin-bottom: 40px; text-align: center">
+          <h1 style="font-size: 3rem">MAPS</h1>
+          <p>Learn the callouts and choke points for every map.</p>
+        </div>
+
+        <!-- INTRO TEXT -->
+        <div class="content-block" style="background-color: #171f28; padding: 40px; border-left: 5px solid #ff4655; margin-bottom: 50px">
+          <h2 style="margin-bottom: 10px; color: #ff4655">INFORMATION ON MAPS IN VALORANT</h2>
+          <p style="margin-bottom: 20px">Each match of VALORANT takes place on a map. In each game, the map is randomly chosen from the current map pool. Four maps were available at launch, and annually a new standard map is released. Overall, there are currently 12 playable maps.</p>
+          <p style="margin-bottom: 20px">Map rotation, which limits the number of playable maps at a time, was introduced in Episode 05 with the release of Pearl, VALORANT’s eighth map. The map pool is kept at seven to balance variety without overwhelming players, while allowing deeper mastery of each map. Rotations apply to Competitive, Premier, and Deathmatch, with decisions based on player sentiment, time since release, planned updates, and strategic diversity.</p>
+          <p>The maps currently available in these game modes are Abyss, Bind, Corrode, Haven, Pearl, Split, and Sunset, while the maps that are currently unavailable are Ascent, Breeze, Fracture, Icebox, and Lotus.</p>
+
+          <div style="background-color: #2c3540; padding: 20px; margin-top: 30px; border: 1px dashed #ff4655">
+            <strong style="color: #ff4655; text-transform: uppercase">Fun Fact:</strong>
+            <span style="font-style: italic">Each map in VALORANT has a real-life location, with its coordinates shown on the loading screen when entering a game on that map.</span>
+          </div>
+        </div>
+
+        <!-- ABYSS -->
+        <div class="text-image-split">
+          <div class="image-side">
+            <figure>
+              <img src="images/maps/abyss.jpg" alt="Abyss Map" />
+              <figcaption>Abyss: Deep underground facility with no boundaries.</figcaption>
+            </figure>
+          </div>
+          <div class="text-side">
+            <span class="map-status">IN ROTATION</span>
+            <h3>Abyss</h3>
+            <p>Abyss is the eleventh standard map released in VALORANT located in a deep underground facility in Norway. Abyss is the first map in VALORANT to have no outer boundaries and a death drop in Mid, making it possible in these areas for players to fall off the map to their death.</p>
+            <div class="map-details">
+              <h4>Important Callouts</h4>
+              <ul>
+                <li>A Site – A Main, A Tower, A Backsite, A Vent, A Lobby</li>
+                <li>Mid – Mid, Mid Catwalk, Mid Library, Mid Bottom, Mid Bend</li>
+                <li>B Site – B Main, B Lobby, B Tower, B Danger, B Site, B Nest</li>
+              </ul>
+              <h4>Pro Tips</h4>
+              <ul>
+                <li>Control Mid early: Mid is very open on Abyss, so gaining mid control gives faster rotations.</li>
+                <li>Use vertical utility on Drops and Towers.</li>
+                <li>Fake one site, hit the other: Long rotations make fakes very effective.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- ASCENT -->
+        <div class="text-image-split">
+          <div class="text-side">
+            <span class="map-status out">OUT OF ROTATION</span>
+            <h3>Ascent</h3>
+            <p>Ascent is the fourth standard map released in VALORANT located in Venice, Italy. It features mechanical doors on both spike sites that can be opened, closed, or destroyed. The map emphasizes mid control for split attacks. This map is also Aamir’s personal favorite.</p>
+            <div class="map-details">
+              <h4>Important Callouts</h4>
+              <ul>
+                <li>A Site – A Main, A Tree, A Heaven, A Hell, A Generator, A Dice</li>
+                <li>Mid – Mid Top, Mid Bottom, Mid Cubby, Mid Catwalk, Market</li>
+                <li>B Site – B Main, B Market, B Lane, B Backsite, B Site</li>
+              </ul>
+              <h4>Pro Tips</h4>
+              <ul>
+                <li>Abuse mid control: Taking Mid early lets your team split both A and B.</li>
+                <li>Play around doors and walls: Use doors to delay pushes or isolate enemies.</li>
+                <li>Use vertical angles on A Site: Clear Heaven and Hell properly.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="image-side">
+            <figure>
+              <img src="images/maps/ascent.jpg" alt="Ascent Map" />
+              <figcaption>Ascent: Features mechanical doors and a wide mid.</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- BIND -->
+        <div class="text-image-split">
+          <div class="image-side">
+            <figure>
+              <img src="images/maps/bind.jpg" alt="Bind Map" />
+              <figcaption>Bind: Features teleporters for quick rotations.</figcaption>
+            </figure>
+          </div>
+          <div class="text-side">
+            <span class="map-status">IN ROTATION</span>
+            <h3>Bind</h3>
+            <p>Bind is located in Rabat, Morocco. It is unique because it has no mid area and instead uses two one-way teleporters that connect A Short to B Short and B Long to A Lobby. Teleporters make loud audio cues when used.</p>
+            <div class="map-details">
+              <h4>Important Callouts</h4>
+              <ul>
+                <li>A Site – A Short, A Bath (Showers), A Heaven, A Lamps (U-Hall), A Site</li>
+                <li>B Site – B Long, B Hookah, B Elbow, B Backsite, B Site</li>
+              </ul>
+              <h4>Pro Tips</h4>
+              <ul>
+                <li>Use teleporters to fake: Triggering a TP can force rotations.</li>
+                <li>Control Showers and Hookah: Key areas for executions.</li>
+                <li>Punish teleporter exits: Enemies are trapped in the exit room briefly.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- BREEZE -->
+        <div class="text-image-split">
+          <div class="text-side">
+            <span class="map-status out">OUT OF ROTATION</span>
+            <h3>Breeze</h3>
+            <p>Breeze is located in the Bermuda Triangle. It features long-range engagements and a unique A Hall area accessible by ropes and a chute. It has wide open sites that favor good aim.</p>
+            <div class="map-details">
+              <h4>Important Callouts</h4>
+              <ul>
+                <li>A Site – A Main, A Hall, A Bridge, A Site, A Backsite</li>
+                <li>Mid – Mid Doors, Mid Pillar, Mid Window, Mid Bottom</li>
+                <li>B Site – B Main, B Tunnel, B Elbow, B Backsite, B Site</li>
+              </ul>
+              <h4>Pro Tips</h4>
+              <ul>
+                <li>Take long-range fights wisely: Rifles are king here.</li>
+                <li>Use A Hall control: Puts pressure on both A and Mid.</li>
+                <li>Play for post-plant lineups: Wide sites allow safe utility usage from afar.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="image-side">
+            <figure>
+              <img src="images/maps/breeze.jpg" alt="Breeze Map" />
+              <figcaption>Breeze: An island map with long sightlines.</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- CORRODE -->
+        <div class="text-image-split">
+          <div class="image-side">
+            <figure>
+              <img src="images/maps/corrode.jpg" alt="Corrode Map" />
+              <figcaption>Corrode: A traditional map in Mont-Saint-Michel.</figcaption>
+            </figure>
+          </div>
+          <div class="text-side">
+            <span class="map-status">IN ROTATION</span>
+            <h3>Corrode</h3>
+            <p>Corrode is the twelfth map, located in Mont-Saint-Michel, France. It is a traditional two-site three-lane map with no dynamic elements, focusing on fundamental gameplay.</p>
+            <div class="map-details">
+              <h4>Important Callouts</h4>
+              <ul>
+                <li>A Site – A Main, A Yard, A Elbow, A Site, A Link</li>
+                <li>Mid – Mid Stairs, Mid Bottom, Mid Top, Mid Window</li>
+                <li>B Site – B Main, B Site, B Lobby, B Link, B Elbow, B Tower, B Arch</li>
+              </ul>
+              <h4>Pro Tips</h4>
+              <ul>
+                <li>Prioritize mid control: Connects quickly to both sites.</li>
+                <li>Abuse wallbangs: Many surfaces are penetrable.</li>
+                <li>Play rat corners: Tight angles allow for surprise plays.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- FRACTURE -->
+        <div class="text-image-split">
+          <div class="text-side">
+            <span class="map-status out">OUT OF ROTATION</span>
+            <h3>Fracture</h3>
+            <p>Fracture is located in Santa Fe, New Mexico. Its H-shape layout splits the map, with Defenders spawning in the center. Attackers can pinch sites from opposite sides using zip lines.</p>
+            <div class="map-details">
+              <h4>Important Callouts</h4>
+              <ul>
+                <li>A Site – A Main, A Hall, A Rope, A Drop, A Site, A Dish</li>
+                <li>B Site – B Main, B Tower, B Canteen, B Site, B Arcade, B Tunnel, B Tree</li>
+              </ul>
+              <h4>Pro Tips</h4>
+              <ul>
+                <li>Hit sites from both sides: Overwhelm defenders with a pincer attack.</li>
+                <li>Use ziplines for fast pressure: Silent during buy phase.</li>
+                <li>Play around the four orbs: Gain ultimates faster.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="image-side">
+            <figure>
+              <img src="images/maps/fracture.jpg" alt="Fracture Map" />
+              <figcaption>Fracture: Attackers can push from two sides.</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- HAVEN -->
+        <div class="text-image-split">
+          <div class="image-side">
+            <figure>
+              <img src="images/maps/haven.jpg" alt="Haven Map" />
+              <figcaption>Haven: Unique for having three spike sites.</figcaption>
+            </figure>
+          </div>
+          <div class="text-side">
+            <span class="map-status">IN ROTATION</span>
+            <h3>Haven</h3>
+            <p>Haven is located in Thimphu, Bhutan. It is unique for having three spike sites (A, B, C). Mid doors have destructible panels that can be broken to allow wallbangs.</p>
+            <div class="map-details">
+              <h4>Important Callouts</h4>
+              <ul>
+                <li>A Site – A Long, A Short, A Heaven, A Hell, A Site</li>
+                <li>B Site – B Main, B Site, B Backsite</li>
+                <li>C Site – C Long, C Garage, C Platform, C Site</li>
+              </ul>
+              <h4>Pro Tips</h4>
+              <ul>
+                <li>Use the three-site advantage: Spread defense thin.</li>
+                <li>Break Mid door panels early: Deny safe rotations.</li>
+                <li>Control Garage and Mid: Key for rotations.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- ICEBOX -->
+        <div class="text-image-split">
+          <div class="text-side">
+            <span class="map-status out">OUT OF ROTATION</span>
+            <h3>Icebox</h3>
+            <p>Icebox is located in Bennett Island, Russia. It features horizontal ziplines and vertical combat spaces. Sites are multi-level with nests where the spike can be planted.</p>
+            <div class="map-details">
+              <h4>Important Callouts</h4>
+              <ul>
+                <li>A Site – A Belt, A Nest, A Rafters, A Screens, A Site</li>
+                <li>Mid – Mid Blue, Mid Tube</li>
+                <li>B Site – B Main, B Yellow, B Green, B Snowman, B Site</li>
+              </ul>
+              <h4>Pro Tips</h4>
+              <ul>
+                <li>Abuse verticality: Use high ground for off-angles.</li>
+                <li>Use utility to clear tight angles.</li>
+                <li>Control B Main and Yellow: Essential for B site executes.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="image-side">
+            <figure>
+              <img src="images/maps/icebox.jpg" alt="Icebox Map" />
+              <figcaption>Icebox: A complex map with verticality and ziplines.</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- LOTUS -->
+        <div class="text-image-split">
+          <div class="image-side">
+            <figure>
+              <img src="images/maps/lotus.jpg" alt="Lotus Map" />
+              <figcaption>Lotus: A three-site map with rotating doors.</figcaption>
+            </figure>
+          </div>
+          <div class="text-side">
+            <span class="map-status out">OUT OF ROTATION</span>
+            <h3>Lotus</h3>
+            <p>Lotus is located in Western Ghats, India. It is the second three-site map. It features rotating doors, a silent drop, and a destructible wall. This map is Nikko’s personal favorite!</p>
+            <div class="map-details">
+              <h4>Important Callouts</h4>
+              <ul>
+                <li>A Site – A Main, A Tree, A Top, A Drop, A Site, A Link</li>
+                <li>B Site – B Main, B Pillar, B Site</li>
+                <li>C Site – C Mound, C Main, C Waterfall, C Site</li>
+              </ul>
+              <h4>Pro Tips</h4>
+              <ul>
+                <li>Use rotating doors for fakes and rotations.</li>
+                <li>Control C Mound early: Key space to contest.</li>
+                <li>Break the A Main wall strategically: Opens new paths.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- PEARL -->
+        <div class="text-image-split">
+          <div class="text-side">
+            <span class="map-status">IN ROTATION</span>
+            <h3>Pearl</h3>
+            <p>Pearl is located in Lisbon, Portugal. It is an underwater geo-dome map with no dynamic mechanics, focusing on a traditional three-lane layout.</p>
+            <div class="map-details">
+              <h4>Important Callouts</h4>
+              <ul>
+                <li>A Site – A Main, A Secret, A Flowers, A Dugout, A Site</li>
+                <li>Mid – Mid Plaza, Mid Connector, Mid Doors, Mid Shops</li>
+                <li>B Site – B Main, B Link, B Tower, B Site</li>
+              </ul>
+              <h4>Pro Tips</h4>
+              <ul>
+                <li>Control Mid early: Mid gives access to both sites.</li>
+                <li>Use A Secret for splits: Pressures A Site from multiple angles.</li>
+                <li>Clear close corners carefully: Many tight angles.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="image-side">
+            <figure>
+              <img src="images/maps/pearl.jpg" alt="Pearl Map" />
+              <figcaption>Pearl: An underwater map with a simple layout.</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- SPLIT -->
+        <div class="text-image-split">
+          <div class="image-side">
+            <figure>
+              <img src="images/maps/split.jpg" alt="Split Map" />
+              <figcaption>Split: High ground and ropes are key here.</figcaption>
+            </figure>
+          </div>
+          <div class="text-side">
+            <span class="map-status">IN ROTATION</span>
+            <h3>Split</h3>
+            <p>Split is located in Tokyo, Japan. It features ascenders (ropes) that allow vertical movement in key areas like Mid and sites.</p>
+            <div class="map-details">
+              <h4>Important Callouts</h4>
+              <ul>
+                <li>A Site – A Main, A Ramps, A Screens, A Heaven, A Site</li>
+                <li>Mid – Mid Mail, Mid Vent, Mid Bottom, Mid Top</li>
+                <li>B Site – B Main, B Garage, B Heaven, B Site</li>
+              </ul>
+              <h4>Pro Tips</h4>
+              <ul>
+                <li>Fight for Mid control: Opens up the map for attackers.</li>
+                <li>Use vertical utility: Clear Heaven and Ramps.</li>
+                <li>Play off close angles: Shotguns and SMGs can be strong here.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- SUNSET -->
+        <div class="text-image-split">
+          <div class="text-side">
+            <span class="map-status">IN ROTATION</span>
+            <h3>Sunset</h3>
+            <p>Sunset is located in Los Angeles, USA. It is a traditional map with a focus on mid control. It features a mechanical door between B Market and Mid.</p>
+            <div class="map-details">
+              <h4>Important Callouts</h4>
+              <ul>
+                <li>A Site – A Main, A Lobby, A Tower, A Site, A Backsite</li>
+                <li>Mid – Mid Courtyard, Mid Top, Mid Bottom, Mid Doors</li>
+                <li>B Site – B Main, B Market, B Site, B Backsite</li>
+              </ul>
+              <h4>Pro Tips</h4>
+              <ul>
+                <li>Control Mid Courtyard: Allows fast rotations.</li>
+                <li>Play around the Market door: Isolate enemies.</li>
+                <li>Use utility to clear tight angles.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="image-side">
+            <figure>
+              <img src="images/maps/sunset.jpg" alt="Sunset Map" />
+              <figcaption>Sunset: A classic layout set in LA.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BACKGROUND MUSIC -->
+    <audio id="bg-music" loop autoplay>
+      <source src="audio/valorant_theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- PLAY BUTTON -->
+    <button id="music-btn" class="music-btn">❚❚</button>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-logo">
+          <h3 style="color: #ff4655">VALORANT</h3>
+          <p style="font-size: 0.8rem; letter-spacing: 2px">BEYOND THE CROSSHAIR</p>
+        </div>
+
+        <p style="margin-top: 20px; font-size: 0.9rem">&copy; 2025 Valorant: Beyond the Crosshair. All rights reserved.</p>
+
+        <div class="footer-portfolio" style="margin-top: 10px; font-size: 0.9rem">
+          <p>Our other works: <a href="https://aamir0316.github.io/2QPortfolioLiVibal/">Aamir's Portfolio</a> | <a href="https://nikkodizon.github.io/2QPortfolioLiDizon/index.html">Nikko's Portfolio</a></p>
+        </div>
+
+        <div class="citations">
+          <h4>Sources</h4>
+          <p>Riot Games. (2020). <i>Valorant</i> [Video game]. Riot Games.</p>
+          <p>VALORANT Wiki. (n.d.). <i>Valorant wiki</i>. Fandom. https://valorant.fandom.com/wiki/VALORANT_Wiki</p>
+          <p>ESPN Esports. (2020, April 4). What is VALORANT? - a guide to Riot's new FPS. Youtube. https://www.youtube.com/watch?v=9omyVqrXhOg</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

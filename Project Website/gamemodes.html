@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="description" content="2Q Portfolio">
+    <meta name="keywords" content="2Q, Portfolio, Projects, Web Development">
+    <meta name="Erwyn Aamir M. Vibal" content="2Q">
+    <title>VALORANT: Beyond the Crosshair - Gamemodes</title>
+    <link rel="stylesheet" href="css/styles.css"/>   
+    <link rel="icon" href="../Proposal/Logo2.png" sizes="16x16" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+      .mode-icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+        vertical-align: middle;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loader">
+      <svg class="loader-svg" width="200" height="200" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="loader-ring" style="transform-origin: 50px 50px">
+          <circle cx="50" cy="50" r="34" stroke="#E72632" stroke-width="4" stroke-dasharray="50 10" />
+        </g>
+        <g fill="#E72632">
+          <path d="M33 35H43L50 52L57 35H67L50 68L33 35Z" />
+          <rect x="45.5" y="2" width="9" height="22" />
+          <rect x="45.5" y="76" width="9" height="22" />
+          <rect x="2" y="45.5" width="22" height="9" />
+          <rect x="76" y="45.5" width="22" height="9" />
+        </g>
+      </svg>
+      <h2 style="margin-top: 20px">INITIATING...</h2>
+    </div>
+
+    <nav>
+      <div class="nav-container">
+        <a href="index.html">
+          <svg height="60" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="valorant-symbol-nav" fill="#FF4655">
+              <path d="M36 38H44L50 51L56 38H64L50 63L36 38Z" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M50 82C67.6731 82 82 67.6731 82 50C82 32.3269 67.6731 18 50 18C32.3269 18 18 32.3269 18 50C18 67.6731 32.3269 82 50 82ZM50 90C72.0914 90 90 72.0914 90 50C90 27.9086 72.0914 10 50 10C27.9086 10 10 27.9086 10 50C10 72.0914 27.9086 90 50 90Z" />
+              <rect x="46" y="2" width="8" height="20" />
+              <rect x="46" y="78" width="8" height="20" />
+              <rect x="2" y="46" width="20" height="8" />
+              <rect x="78" y="46" width="20" height="8" />
+            </g>
+            <g fill="#0F1923" font-family="'Oswald', sans-serif" style="text-transform: uppercase">
+              <text x="110" y="62" font-size="60" font-weight="900" fill="white">Valorant</text>
+              <text x="112" y="85" font-size="14" font-weight="700" letter-spacing="1.5" fill="#aaa">Beyond The Crosshair</text>
+            </g>
+          </svg>
+        </a>
+        <div class="menu-toggle" id="mobile-menu-btn">☰</div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="agents.html">AGENTS</a></li>
+          <li><a href="maps.html">MAPS</a></li>
+          <li><a href="weapons.html">WEAPONS</a></li>
+          <li><a href="gamemodes.html" style="color: #ff4655">GAMEMODES</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="gamemodes" class="page-section">
+      <div class="container">
+        <div style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/maps/ascent.jpg'); background-size: cover; padding: 60px 20px; border-bottom: 4px solid #ff4655; margin-bottom: 40px; text-align: center">
+          <h1 style="font-size: 3rem">GAMEMODES</h1>
+          <p>From tactical competitive play to fast-paced warmup modes.</p>
+        </div>
+
+        <!-- Intro -->
+        <div class="content-block" style="background-color: #171f28; padding: 30px; border-left: 5px solid #ff4655">
+          <h2 style="margin-bottom: 10px; color: #ff4655">INFORMATION ON GAME MODES</h2>
+          <p style="margin-bottom: 15px">Game Modes are different types of modes that can be played in VALORANT. These modes offer players different ways to experience the game, depending on their goals and playstyle. Some game modes are more competitive and focus on teamwork, strategy, and ranking, while others are designed to be more casual and fun. There are also game modes meant for warming up and practicing mechanics, such as aim and movement. Most modes can be categorized as either Plant/Defuse-style or Deathmatch-style.</p>
+          <div style="background-color: #2c3540; padding: 15px; border: 1px dashed #ff4655"><strong style="color: #ff4655">FUN FACT:</strong> VALORANT has had several limited-time or discontinued game modes that were available only during specific events.</div>
+        </div>
+
+        <!-- Plant/Defuse Modes -->
+        <h2 class="mode-category-title">PLANT/DEFUSE GAME MODES</h2>
+
+        <div class="mode-card">
+          <h3><img src="images/gamemodes/unrated.png" alt="Unrated Icon" class="mode-icon" /> UNRATED</h3>
+          <p>Unrated is the standard VALORANT game mode that uses the same rules and format as Competitive but without affecting a player’s rank. It is ideal for learning the game, practicing new agents or strategies, and playing casually with friends. Matches still use the full economy system, map pool, and round structure.</p>
+          <div class="win-condition"><strong>HOW TO WIN:</strong> The first to 13 rounds wins (best-of-25), with a final Endgame round played should the game reach a 12-12 scoreline.</div>
+        </div>
+
+        <div class="mode-card">
+          <h3><img src="images/gamemodes/competitive.png" alt="Competitive Icon" class="mode-icon" /> COMPETITIVE</h3>
+          <p>Competitive is a higher-stakes version of Unrated where players face others of similar skill to earn and progress through ranks. The rank system consists of multiple tiers, starting from Iron, Bronze, Silver, Gold, Platinum, Diamond, Ascendant, Immortal, and Radiant, with most ranks divided into three sub-tiers. Players gain or lose Rank Rating (RR) based on match results, individual performance, and consistency, which determines whether they rank up or down.</p>
+          <div class="win-condition"><strong>HOW TO WIN:</strong> A Competitive match is won by being the first team to reach 13 rounds. If the score reaches 12–12, the game enters Overtime, where teams must win by a 2-round lead. Players can vote every two rounds to continue Overtime or end the match in a draw, allowing games to extend longer if both teams agree.</div>
+        </div>
+
+        <div class="mode-card">
+          <h3><img src="images/gamemodes/swiftplay.png" alt="Swiftplay Icon" class="mode-icon" /> SWIFTPLAY</h3>
+          <p>Swiftplay is a faster, more casual version of the standard VALORANT match, designed for shorter and more fun games while keeping core mechanics the same. Teams play first to 5 rounds, with increased starting credits, faster ultimate charging, and quicker economy progression, making it ideal for warming up or playing quick matches.</p>
+          <div class="win-condition"><strong>HOW TO WIN:</strong> The first team to win 5 rounds wins the match. If the score reaches 4–4, the game goes into a final sudden-death round, where the winner of that round wins the game.</div>
+        </div>
+
+        <div class="mode-card">
+          <h3><img src="images/gamemodes/spike_rush.png" alt="Spike Rush Icon" class="mode-icon" /> SPIKE RUSH</h3>
+          <p>Spike Rush is a fast, fun, and casual game mode focused on fun and experimentation rather than strategy and economy management. All players use the same random weapon each round, abilities are free, and special power-up orbs appear around the map to add variety and chaos.</p>
+          <div class="win-condition"><strong>HOW TO WIN:</strong> The first team to win 4 rounds wins the match. There is no overtime, so games end quickly once a team reaches the round limit.</div>
+        </div>
+
+        <div class="mode-card">
+          <h3><img src="images/gamemodes/premier.png" alt="Premier Icon" class="mode-icon" /> PREMIER</h3>
+          <p>Premier is a tournament-based game mode that follows the same core rules as Competitive, but is designed for organized, high-level team play. Players compete as a fixed squad throughout a tournament structure, with features inspired by professional play such as map pick and ban phases, emphasizing coordination and strategy.</p>
+          <div class="win-condition"><strong>HOW TO WIN:</strong> Matches are played to 13 rounds, similar to Competitive. If the score reaches 12–12, the game enters Overtime, which in Premier is capped at a maximum of 5 additional rounds, meaning matches cannot continue indefinitely.</div>
+        </div>
+
+        <div class="mode-card" style="border-left-color: #555">
+          <h3><img src="images/gamemodes/replication.png" alt="Replication Icon" class="mode-icon" /> REPLICATION <span class="mode-status status-discontinued">DISCONTINUED</span></h3>
+          <p>Replication is a discontinued fun and chaotic game mode where each team is assigned a single random agent, and all players on that team must use the same agent for the entire match.</p>
+          <div class="win-condition"><strong>HOW TO WIN:</strong> The first team to win 5 rounds wins the match. Replication uses a shorter match format with accelerated pacing, making games quick and action-packed.</div>
+        </div>
+
+        <!-- Deathmatch-Style Modes -->
+        <h2 class="mode-category-title">DEATHMATCH-STYLE GAME MODES</h2>
+
+        <div class="mode-card">
+          <h3><img src="images/gamemodes/deathmatch.png" alt="Deathmatch Icon" class="mode-icon" /> DEATHMATCH</h3>
+          <p>Deathmatch is a free-for-all mode focused on aim training and mechanical practice. Players spawn individually with no abilities and instantly respawn after being eliminated, making it ideal for warming up before matches.</p>
+          <div class="win-condition"><strong>HOW TO WIN:</strong> The first player to reach 40 kills or the player with the most kills when time runs out wins.</div>
+        </div>
+
+        <div class="mode-card" style="border-left-color: #8b0000">
+          <h3><img src="images/gamemodes/escalation.png" alt="Escalation Icon" class="mode-icon" /> ESCALATION <span class="mode-status status-unavailable">UNAVAILABLE</span></h3>
+          <p>Escalation is a fast-paced, team-based mode inspired by gun game, where teams progress through a series of weapons by getting kills. Each new level introduces different weapons or abilities, keeping gameplay varied and fun. This game mode is Nikko’s personal favorite!</p>
+          <div class="win-condition"><strong>HOW TO WIN:</strong> The first team to complete all weapon levels wins the match.</div>
+        </div>
+
+        <div class="mode-card">
+          <h3><img src="images/gamemodes/team_deathmatch.png" alt="Team Deathmatch Icon" class="mode-icon" /> TEAM DEATHMATCH</h3>
+          <p>Team Deathmatch is a casual, team-based combat mode focused on fighting and practice rather than objectives. Players choose loadouts, use abilities, and respawn quickly, making it great for warming up or playing stress-free. This game mode is Aamir’s personal favorite!</p>
+          <div class="win-condition"><strong>HOW TO WIN:</strong> The first team to reach the required kill count, or the team with the most kills when time expires, wins the match.</div>
+        </div>
+
+        <div class="mode-card" style="border-left-color: #008b8b">
+          <h3><img src="images/gamemodes/snowball_fight.png" alt="Snowball Fight Icon" class="mode-icon" /> SNOWBALL FIGHT <span class="mode-status status-limited">LIMITED TIME</span></h3>
+          <p>Snowball Fight is a limited-time, festive game mode where players use snowball launchers instead of standard weapons. It is designed purely for fun and chaos during special events.</p>
+          <div class="win-condition"><strong>HOW TO WIN:</strong> The first team to reach the target number of eliminations wins the match.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BACKGROUND MUSIC -->
+    <audio id="bg-music" loop autoplay>
+      <source src="audio/valorant_theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- PLAY BUTTON -->
+    <button id="music-btn" class="music-btn">❚❚</button>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-logo">
+          <h3 style="color: #ff4655">VALORANT</h3>
+          <p style="font-size: 0.8rem; letter-spacing: 2px">BEYOND THE CROSSHAIR</p>
+        </div>
+
+        <p style="margin-top: 20px; font-size: 0.9rem">&copy; 2025 Valorant: Beyond the Crosshair. All rights reserved.</p>
+
+        <div class="footer-portfolio" style="margin-top: 10px; font-size: 0.9rem">
+          <p>Our other works: <a href="https://aamir0316.github.io/2QPortfolioLiVibal/">Aamir's Portfolio</a> | <a href="https://nikkodizon.github.io/2QPortfolioLiDizon/index.html">Nikko's Portfolio</a></p>
+        </div>
+
+        <div class="citations">
+          <h4>Sources</h4>
+          <p>Riot Games. (2020). <i>Valorant</i> [Video game]. Riot Games.</p>
+          <p>VALORANT Wiki. (n.d.). <i>Valorant wiki</i>. Fandom. https://valorant.fandom.com/wiki/VALORANT_Wiki</p>
+          <p>ESPN Esports. (2020, April 4). What is VALORANT? - a guide to Riot's new FPS. Youtube. https://www.youtube.com/watch?v=9omyVqrXhOg</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

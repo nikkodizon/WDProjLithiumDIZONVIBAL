@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="description" content="2Q Portfolio">
+    <meta name="keywords" content="2Q, Portfolio, Projects, Web Development">
+    <meta name="Erwyn Aamir M. Vibal" content="2Q">
+    <title>VALORANT: Beyond the Crosshair - Weapons</title>
+    <link rel="stylesheet" href="css/styles.css"/>   
+    <link rel="icon" href="../Proposal/Logo2.png" sizes="16x16" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="loader">
+      <svg class="loader-svg" width="200" height="200" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="loader-ring" style="transform-origin: 50px 50px">
+          <circle cx="50" cy="50" r="34" stroke="#E72632" stroke-width="4" stroke-dasharray="50 10" />
+        </g>
+        <g fill="#E72632">
+          <path d="M33 35H43L50 52L57 35H67L50 68L33 35Z" />
+          <rect x="45.5" y="2" width="9" height="22" />
+          <rect x="45.5" y="76" width="9" height="22" />
+          <rect x="2" y="45.5" width="22" height="9" />
+          <rect x="76" y="45.5" width="22" height="9" />
+        </g>
+      </svg>
+      <h2 style="margin-top: 20px">INITIATING...</h2>
+    </div>
+
+    <nav>
+      <div class="nav-container">
+        <a href="index.html">
+          <svg height="60" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="valorant-symbol-nav" fill="#FF4655">
+              <path d="M36 38H44L50 51L56 38H64L50 63L36 38Z" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M50 82C67.6731 82 82 67.6731 82 50C82 32.3269 67.6731 18 50 18C32.3269 18 18 32.3269 18 50C18 67.6731 32.3269 82 50 82ZM50 90C72.0914 90 90 72.0914 90 50C90 27.9086 72.0914 10 50 10C27.9086 10 10 27.9086 10 50C10 72.0914 27.9086 90 50 90Z" />
+              <rect x="46" y="2" width="8" height="20" />
+              <rect x="46" y="78" width="8" height="20" />
+              <rect x="2" y="46" width="20" height="8" />
+              <rect x="78" y="46" width="20" height="8" />
+            </g>
+            <g fill="#0F1923" font-family="'Oswald', sans-serif" style="text-transform: uppercase">
+              <text x="110" y="62" font-size="60" font-weight="900" fill="white">Valorant</text>
+              <text x="112" y="85" font-size="14" font-weight="700" letter-spacing="1.5" fill="#aaa">Beyond The Crosshair</text>
+            </g>
+          </svg>
+        </a>
+        <div class="menu-toggle" id="mobile-menu-btn">☰</div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="agents.html">AGENTS</a></li>
+          <li><a href="maps.html">MAPS</a></li>
+          <li><a href="weapons.html" style="color: #ff4655">WEAPONS</a></li>
+          <li><a href="gamemodes.html">GAMEMODES</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="weapons" class="page-section">
+      <div class="container">
+        <div style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/maps/fracture.jpg'); background-size: cover; padding: 60px 20px; border-bottom: 4px solid #ff4655; margin-bottom: 40px; text-align: center">
+          <h1 style="font-size: 3rem">WEAPONS</h1>
+          <p>Choose your weapon wisely. Understanding recoil patterns and damage falloff is essential.</p>
+        </div>
+
+        <!-- INTRO CONTENT -->
+        <div class="content-block" style="background-color: #171f28; padding: 30px; border-left: 5px solid #ff4655; margin-bottom: 40px">
+          <h2 style="margin-bottom: 15px; color: #ff4655">WEAPONS IN VALORANT</h2>
+          <p style="margin-bottom: 10px">Weapons in VALORANT are the primary tools agents use to secure eliminations and win rounds. Each weapon category offers a different balance of damage, accuracy, fire rate, and cost, rewarding players who understand when and how to use them. From precise rifles and powerful sniper rifles to close-range shotguns and sidearms, weapon choice plays a major role in shaping a team’s strategy.</p>
+          <p style="margin-bottom: 10px">Guns have limited ammo and come with three magazines’ worth of reserve ammunition. Damage varies depending on the weapon, the body part hit, and the distance to the target. Weapon accuracy is affected by spread and movement; most guns have first-shot spread, and moving while shooting generally adds accuracy penalties.</p>
+          <p>Weapons are bought with credits during the pre-round. Every agent starts with a free Melee weapon and a Classic sidearm. Purchased weapons are kept until death and can be picked up from the ground.</p>
+        </div>
+
+        <!-- SIDEARMS -->
+        <div class="content-block">
+          <h3 class="section-title" style="font-size: 2rem; border-color: #aaa">SIDEARMS</h3>
+          <div class="card-grid">
+            <!-- CLASSIC -->
+            <div class="card" onclick="openModal('modal-classic')">
+              <div class="card-img-container">
+                <img src="images/weapons/classic.png" alt="Classic" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Classic</h4>
+                <p class="card-role">Sidearm</p>
+              </div>
+            </div>
+            <!-- SHORTY -->
+            <div class="card" onclick="openModal('modal-shorty')">
+              <div class="card-img-container">
+                <img src="images/weapons/shorty.png" alt="Shorty" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Shorty</h4>
+                <p class="card-role">Sidearm</p>
+              </div>
+            </div>
+            <!-- FRENZY -->
+            <div class="card" onclick="openModal('modal-frenzy')">
+              <div class="card-img-container">
+                <img src="images/weapons/frenzy.png" alt="Frenzy" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Frenzy</h4>
+                <p class="card-role">Sidearm</p>
+              </div>
+            </div>
+            <!-- GHOST -->
+            <div class="card" onclick="openModal('modal-ghost')">
+              <div class="card-img-container">
+                <img src="images/weapons/ghost.png" alt="Ghost" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Ghost</h4>
+                <p class="card-role">Sidearm</p>
+              </div>
+            </div>
+            <!-- SHERIFF -->
+            <div class="card" onclick="openModal('modal-sheriff')">
+              <div class="card-img-container">
+                <img src="images/weapons/sheriff.png" alt="Sheriff" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Sheriff</h4>
+                <p class="card-role">Sidearm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRIMARY: SMGS -->
+        <div class="content-block">
+          <h3 class="section-title" style="font-size: 2rem; border-color: #aaa">SMGS</h3>
+          <div class="card-grid">
+            <!-- STINGER -->
+            <div class="card" onclick="openModal('modal-stinger')">
+              <div class="card-img-container">
+                <img src="images/weapons/stinger.png" alt="Stinger" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Stinger</h4>
+                <p class="card-role">SMG</p>
+              </div>
+            </div>
+            <!-- SPECTRE -->
+            <div class="card" onclick="openModal('modal-spectre')">
+              <div class="card-img-container">
+                <img src="images/weapons/spectre.png" alt="Spectre" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Spectre</h4>
+                <p class="card-role">SMG</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRIMARY: SHOTGUNS -->
+        <div class="content-block">
+          <h3 class="section-title" style="font-size: 2rem; border-color: #aaa">SHOTGUNS</h3>
+          <div class="card-grid">
+            <!-- BUCKY -->
+            <div class="card" onclick="openModal('modal-bucky')">
+              <div class="card-img-container">
+                <img src="images/weapons/bucky.png" alt="Bucky" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Bucky</h4>
+                <p class="card-role">Shotgun</p>
+              </div>
+            </div>
+            <!-- JUDGE -->
+            <div class="card" onclick="openModal('modal-judge')">
+              <div class="card-img-container">
+                <img src="images/weapons/judge.png" alt="Judge" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Judge</h4>
+                <p class="card-role">Shotgun</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRIMARY: RIFLES -->
+        <div class="content-block">
+          <h3 class="section-title" style="font-size: 2rem; border-color: #aaa">RIFLES</h3>
+          <div class="card-grid">
+            <!-- BULLDOG -->
+            <div class="card" onclick="openModal('modal-bulldog')">
+              <div class="card-img-container">
+                <img src="images/weapons/bulldog.png" alt="Bulldog" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Bulldog</h4>
+                <p class="card-role">Rifle</p>
+              </div>
+            </div>
+            <!-- GUARDIAN -->
+            <div class="card" onclick="openModal('modal-guardian')">
+              <div class="card-img-container">
+                <img src="images/weapons/guardian.png" alt="Guardian" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Guardian</h4>
+                <p class="card-role">Rifle</p>
+              </div>
+            </div>
+            <!-- PHANTOM -->
+            <div class="card" onclick="openModal('modal-phantom')">
+              <div class="card-img-container">
+                <img src="images/weapons/phantom.png" alt="Phantom" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Phantom</h4>
+                <p class="card-role">Rifle</p>
+              </div>
+            </div>
+            <!-- VANDAL -->
+            <div class="card" onclick="openModal('modal-vandal')">
+              <div class="card-img-container">
+                <img src="images/weapons/vandal.png" alt="Vandal" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Vandal</h4>
+                <p class="card-role">Rifle</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRIMARY: SNIPERS -->
+        <div class="content-block">
+          <h3 class="section-title" style="font-size: 2rem; border-color: #aaa">SNIPERS</h3>
+          <div class="card-grid">
+            <!-- MARSHAL -->
+            <div class="card" onclick="openModal('modal-marshal')">
+              <div class="card-img-container">
+                <img src="images/weapons/marshal.png" alt="Marshal" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Marshal</h4>
+                <p class="card-role">Sniper</p>
+              </div>
+            </div>
+            <!-- OUTLAW -->
+            <div class="card" onclick="openModal('modal-outlaw')">
+              <div class="card-img-container">
+                <img src="images/weapons/outlaw.png" alt="Outlaw" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Outlaw</h4>
+                <p class="card-role">Sniper</p>
+              </div>
+            </div>
+            <!-- OPERATOR -->
+            <div class="card" onclick="openModal('modal-operator')">
+              <div class="card-img-container">
+                <img src="images/weapons/operator.png" alt="Operator" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Operator</h4>
+                <p class="card-role">Sniper</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRIMARY: MACHINE GUNS -->
+        <div class="content-block">
+          <h3 class="section-title" style="font-size: 2rem; border-color: #aaa">MACHINE GUNS</h3>
+          <div class="card-grid">
+            <!-- ARES -->
+            <div class="card" onclick="openModal('modal-ares')">
+              <div class="card-img-container">
+                <img src="images/weapons/ares.png" alt="Ares" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Ares</h4>
+                <p class="card-role">Machine Gun</p>
+              </div>
+            </div>
+            <!-- ODIN -->
+            <div class="card" onclick="openModal('modal-odin')">
+              <div class="card-img-container">
+                <img src="images/weapons/odin.png" alt="Odin" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Odin</h4>
+                <p class="card-role">Machine Gun</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MELEE -->
+        <div class="content-block">
+          <h3 class="section-title" style="font-size: 2rem; border-color: #aaa">MELEE</h3>
+          <div class="card-grid">
+            <!-- KNIFE -->
+            <div class="card" onclick="openModal('modal-knife')">
+              <div class="card-img-container">
+                <img src="images/weapons/knife.png" alt="Tactical Knife" class="card-img" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Tactical Knife</h4>
+                <p class="card-role">Melee</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODALS -->
+
+    <!-- CLASSIC -->
+    <div id="modal-classic" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-classic')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/classic.png" alt="Classic" />
+          <h2 style="margin-top: 10px; color: #ff4655">CLASSIC</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> Free</li>
+            <li><strong>Fire Rate:</strong> 6.75 rps</li>
+            <li><strong>Damage (0-30m):</strong> Head 78 / Body 26 / Legs 22</li>
+            <li><strong>Damage (30-50m):</strong> Head 66 / Body 22 / Legs 18</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- SHORTY -->
+    <div id="modal-shorty" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-shorty')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/shorty.png" alt="Shorty" />
+          <h2 style="margin-top: 10px; color: #ff4655">SHORTY</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 300 Credits</li>
+            <li><strong>Fire Rate:</strong> 3.3 rps</li>
+            <li><strong>Damage (0-7m):</strong> Head 36 / Body 12 / Legs 10 (per pellet)</li>
+            <li><strong>Damage (7-15m):</strong> Reduced pellet damage</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- FRENZY -->
+    <div id="modal-frenzy" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-frenzy')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/frenzy.png" alt="Frenzy" />
+          <h2 style="margin-top: 10px; color: #ff4655">FRENZY</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 450 Credits</li>
+            <li><strong>Fire Rate:</strong> 10 rps</li>
+            <li><strong>Damage (0-20m):</strong> Head 78 / Body 26 / Legs 22</li>
+            <li><strong>Damage (20-50m):</strong> Head 63 / Body 21 / Legs 18</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- GHOST -->
+    <div id="modal-ghost" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-ghost')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/ghost.png" alt="Ghost" />
+          <h2 style="margin-top: 10px; color: #ff4655">GHOST</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 500 Credits</li>
+            <li><strong>Fire Rate:</strong> 6.75 rps</li>
+            <li><strong>Damage (0-30m):</strong> Head 105 / Body 30 / Legs 25</li>
+            <li><strong>Damage (30-50m):</strong> Head 87 / Body 25 / Legs 21</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- SHERIFF -->
+    <div id="modal-sheriff" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-sheriff')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/sheriff.png" alt="Sheriff" />
+          <h2 style="margin-top: 10px; color: #ff4655">SHERIFF</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 800 Credits</li>
+            <li><strong>Fire Rate:</strong> 4 rps</li>
+            <li><strong>Damage (0-30m):</strong> Head 159 / Body 55 / Legs 47</li>
+            <li><strong>Damage (30-50m):</strong> Head 145 / Body 50 / Legs 43</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- STINGER -->
+    <div id="modal-stinger" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-stinger')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/stinger.png" alt="Stinger" />
+          <h2 style="margin-top: 10px; color: #ff4655">STINGER</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 1,100 Credits</li>
+            <li><strong>Fire Rate:</strong> 16 rps</li>
+            <li><strong>Damage (0-20m):</strong> Head 67 / Body 27 / Legs 23</li>
+            <li><strong>Damage (20-50m):</strong> Head 62 / Body 25 / Legs 21</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- SPECTRE -->
+    <div id="modal-spectre" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-spectre')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/spectre.png" alt="Spectre" />
+          <h2 style="margin-top: 10px; color: #ff4655">SPECTRE</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 1,600 Credits</li>
+            <li><strong>Fire Rate:</strong> 13.33 rps</li>
+            <li><strong>Damage (0-20m):</strong> Head 78 / Body 26 / Legs 22</li>
+            <li><strong>Damage (20-50m):</strong> Head 66 / Body 22 / Legs 18</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- BUCKY -->
+    <div id="modal-bucky" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-bucky')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/bucky.png" alt="Bucky" />
+          <h2 style="margin-top: 10px; color: #ff4655">BUCKY</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 850 Credits</li>
+            <li><strong>Fire Rate:</strong> 1.1 rps</li>
+            <li><strong>Damage (0-8m):</strong> Head 40 / Body 20 / Legs 17 (per pellet)</li>
+            <li><strong>Damage (8-12m):</strong> Reduced damage</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- JUDGE -->
+    <div id="modal-judge" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-judge')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/judge.png" alt="Judge" />
+          <h2 style="margin-top: 10px; color: #ff4655">JUDGE</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 1,850 Credits</li>
+            <li><strong>Fire Rate:</strong> 3.5 rps</li>
+            <li><strong>Damage (0-10m):</strong> Head 34 / Body 17 / Legs 14 (per pellet)</li>
+            <li><strong>Damage (10-15m):</strong> Reduced damage</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- BULLDOG -->
+    <div id="modal-bulldog" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-bulldog')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/bulldog.png" alt="Bulldog" />
+          <h2 style="margin-top: 10px; color: #ff4655">BULLDOG</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 2,050 Credits</li>
+            <li><strong>Fire Rate:</strong> 9.15 rps</li>
+            <li><strong>Damage:</strong> Head 116 / Body 35 / Legs 30</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- GUARDIAN -->
+    <div id="modal-guardian" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-guardian')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/guardian.png" alt="Guardian" />
+          <h2 style="margin-top: 10px; color: #ff4655">GUARDIAN</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 2,250 Credits</li>
+            <li><strong>Fire Rate:</strong> 4.75 rps</li>
+            <li><strong>Damage:</strong> Head 195 / Body 65 / Legs 49</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- PHANTOM -->
+    <div id="modal-phantom" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-phantom')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/phantom.png" alt="Phantom" />
+          <h2 style="margin-top: 10px; color: #ff4655">PHANTOM</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 2,900 Credits</li>
+            <li><strong>Fire Rate:</strong> 11 rps</li>
+            <li><strong>Damage (0-20m):</strong> Head 156 / Body 39 / Legs 33</li>
+            <li><strong>Damage (20-50m):</strong> Head 140 / Body 35 / Legs 29</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- VANDAL -->
+    <div id="modal-vandal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-vandal')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/vandal.png" alt="Vandal" />
+          <h2 style="margin-top: 10px; color: #ff4655">VANDAL</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 2,900 Credits</li>
+            <li><strong>Fire Rate:</strong> 9.75 rps</li>
+            <li><strong>Damage:</strong> Head 160 / Body 40 / Legs 34</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- MARSHAL -->
+    <div id="modal-marshal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-marshal')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/marshal.png" alt="Marshal" />
+          <h2 style="margin-top: 10px; color: #ff4655">MARSHAL</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 950 Credits</li>
+            <li><strong>Fire Rate:</strong> 1.5 rps</li>
+            <li><strong>Damage:</strong> Head 202 / Body 101 / Legs 85</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- OUTLAW -->
+    <div id="modal-outlaw" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-outlaw')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/outlaw.png" alt="Outlaw" />
+          <h2 style="margin-top: 10px; color: #ff4655">OUTLAW</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 2,400 Credits</li>
+            <li><strong>Fire Rate:</strong> 2 rps</li>
+            <li><strong>Damage:</strong> Head 238 / Body 140 / Legs 119</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- OPERATOR -->
+    <div id="modal-operator" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-operator')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/operator.png" alt="Operator" />
+          <h2 style="margin-top: 10px; color: #ff4655">OPERATOR</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 4,700 Credits</li>
+            <li><strong>Fire Rate:</strong> 0.6 rps</li>
+            <li><strong>Damage:</strong> Head 255 / Body 150 / Legs 120</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ARES -->
+    <div id="modal-ares" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-ares')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/ares.png" alt="Ares" />
+          <h2 style="margin-top: 10px; color: #ff4655">ARES</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 1,600 Credits</li>
+            <li><strong>Fire Rate:</strong> 10-13 rps</li>
+            <li><strong>Damage (0-30m):</strong> Head 72 / Body 30 / Legs 25</li>
+            <li><strong>Damage (30-50m):</strong> Head 67 / Body 28 / Legs 23</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ODIN -->
+    <div id="modal-odin" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-odin')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/odin.png" alt="Odin" />
+          <h2 style="margin-top: 10px; color: #ff4655">ODIN</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> 3,200 Credits</li>
+            <li><strong>Fire Rate:</strong> 12-15.6 rps</li>
+            <li><strong>Damage (0-30m):</strong> Head 95 / Body 38 / Legs 32</li>
+            <li><strong>Damage (30-50m):</strong> Head 77 / Body 31 / Legs 26</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- KNIFE -->
+    <div id="modal-knife" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('modal-knife')">&times;</span>
+        <div class="modal-img-container">
+          <img src="images/weapons/knife.png" alt="Tactical Knife" />
+          <h2 style="margin-top: 10px; color: #ff4655">TACTICAL KNIFE</h2>
+        </div>
+        <div class="modal-text-container">
+          <h3>Weapon Stats</h3>
+          <ul class="ability-list" style="margin-top: 20px">
+            <li><strong>Price:</strong> Free</li>
+            <li><strong>Primary Fire Damage:</strong> 50 (Front) / 75 (Back)</li>
+            <li><strong>Secondary Fire Damage:</strong> 75 (Front) / 150 (Back)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- BACKGROUND MUSIC -->
+    <audio id="bg-music" loop autoplay>
+      <source src="audio/valorant_theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- PLAY BUTTON -->
+    <button id="music-btn" class="music-btn">❚❚</button>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-logo">
+          <h3 style="color: #ff4655">VALORANT</h3>
+          <p style="font-size: 0.8rem; letter-spacing: 2px">BEYOND THE CROSSHAIR</p>
+        </div>
+
+        <p style="margin-top: 20px; font-size: 0.9rem">&copy; 2025 Valorant: Beyond the Crosshair. All rights reserved.</p>
+
+        <div class="footer-portfolio" style="margin-top: 10px; font-size: 0.9rem">
+          <p>Our other works: <a href="https://aamir0316.github.io/2QPortfolioLiVibal/">Aamir's Portfolio</a> | <a href="https://nikkodizon.github.io/2QPortfolioLiDizon/index.html">Nikko's Portfolio</a></p>
+        </div>
+
+        <div class="citations">
+          <h4>Sources</h4>
+          <p>Riot Games. (2020). <i>Valorant</i> [Video game]. Riot Games.</p>
+          <p>VALORANT Wiki. (n.d.). <i>Valorant wiki</i>. Fandom. https://valorant.fandom.com/wiki/VALORANT_Wiki</p>
+          <p>ESPN Esports. (2020, April 4). What is VALORANT? - a guide to Riot's new FPS. Youtube. https://www.youtube.com/watch?v=9omyVqrXhOg</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
