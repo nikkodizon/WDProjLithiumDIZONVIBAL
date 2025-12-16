@@ -11,7 +11,6 @@ window.addEventListener('load', function () {
   }
 });
 
-// --- MOBILE MENU ---
 document.addEventListener('DOMContentLoaded', function () {
   const menuBtn = document.getElementById('mobile-menu-btn');
   const navLinks = document.getElementById('nav-links');
