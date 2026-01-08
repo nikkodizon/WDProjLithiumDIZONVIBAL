@@ -65,4 +65,4 @@
 ## **Integration with the Existing Website** - 
 ### The new HTML form and webpages will be integrated into the current website structure.
 ### A Profile link will be added to the navigation bar for easy access to the form and profile pages.
-### The logo, navigation bar, and footer design will remain consistent across all webpages.
+### The logo, new navigation bar, and footer design will stay the same across all webpages.
