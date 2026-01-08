@@ -44,7 +44,7 @@
 ## **HTML Form Design and Narrative** -
 ### The website will include a Player Profile and Preference Form that will be used to collect information from users of the website.
 ### This form will allow users to personalize their experience while exploring Valorant: Beyond the Crosshair.
-## The form will collect the following information from users:
+## **The form will collect the following information from users:**
 ### Username
 ### Email address
 ### Preferred role (Duelist, Sentinel, Controller, Initiator)
