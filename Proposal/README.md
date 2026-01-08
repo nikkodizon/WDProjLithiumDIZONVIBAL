@@ -40,3 +40,16 @@
 - ### A Copyright Notice: *© 2025 Valorant: Beyond the Crosshair. All rights reserved.*
 - ### Links to our social media
 - ### Sources and citations
+
+## **HTML Form Design and Narrative** -
+### The website will include a Player Profile and Preference Form that will be used to collect information from users of the website.
+### This form will allow users to personalize their experience while exploring Valorant: Beyond the Crosshair.
+## The form will collect the following information from users:
+### Username
+### Email address
+### Preferred role (Duelist, Sentinel, Controller, Initiator)
+### Favorite agent
+### Rank (Iron, Bronze, Silver, Gold, Platinum, Diamond, Asecendant, Immortal, or Radiant)
+### Preferred game modes (Competitive, Unrated, Spike Rush, etc.)
+
+
