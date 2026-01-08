@@ -54,7 +54,7 @@
 
 ## **New Webpages Using the Form Data -**
 - ### **Player Profile Setup** – This page will contain the HTML form used to collect and save user information.
-- ### **Player Profile Summary** – This page will display the user’s saved information such as their username, preferred role, favorite agent, and skill level.
+- ### **Profile Edit Page** – This page will allow users to update their saved information by loading the previously entered data into the HTML form.
 - ### **Profile Display Page** – This page will display the user’s saved information such as their username, email address, preferred role, favorite agent, skill level, and preferred game modes.
 
 ## **Wireframes for the New Webpages** - 
