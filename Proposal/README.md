@@ -52,4 +52,13 @@
 ### Rank (Iron, Bronze, Silver, Gold, Platinum, Diamond, Asecendant, Immortal, or Radiant)
 ### Preferred game modes (Competitive, Unrated, Spike Rush, etc.)
 
+## **New Webpages Using the Form Data -**
+- ### **Player Profile Setup** – This page will contain the HTML form used to collect and save user information.
+- ### **Player Profile Summary** – This page will display the user’s saved information such as their username, preferred role, favorite agent, and skill level.
+- ### **Profile Display Page** – This page will display the user’s saved information such as their username, email address, preferred role, favorite agent, skill level, and preferred game modes.
+
+## **Wireframes for the New Webpages** - 
+### Attached in the repository are the wireframes for the new webpages related to the HTML form.
+### These wireframes clearly show the layout, page titles, section headers, form elements, and navigation between pages.
+### The design of the new webpages will follow the same layout and style as the existing pages of the website.
 
