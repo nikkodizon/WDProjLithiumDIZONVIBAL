@@ -62,6 +62,7 @@
 ### Attached in the repository are the wireframes for the new webpages related to the HTML form.
 ### These wireframes clearly show the layout, page titles, section headers, form elements, and navigation between pages.
 ### The design of the new webpages will follow the same layout and style as the existing pages of the website.
+### You can view the wireframes [here](./Li11, Li29_DIZON, VIBAL_Project Proposal Layout.pdf).
 
 ## **Integration with the Existing Website** - 
 ### The new HTML form and webpages will be integrated into the current website structure.
