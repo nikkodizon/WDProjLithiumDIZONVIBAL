@@ -49,8 +49,8 @@
 ### Email address
 ### Preferred role (Duelist, Sentinel, Controller, Initiator)
 ### Favorite agent
-### Rank (Iron, Bronze, Silver, Gold, Platinum, Diamond, Asecendant, Immortal, or Radiant)
-### Preferred game modes (Competitive, Unrated, Spike Rush, etc.)
+### Rank (Iron I, Iron II, Iron III, Bronze I, Bronze II, Bronze III, Silver I, Silver II, Silver III, Gold I, Gold II, Gold III, Platinum I, Platinum II, Platinum III, Diamond I, Diamond II, Diamond III, Ascendant I, Ascendant II, Ascendant III, Immortal I, Immortal II, Immortal III, Radiant #XXX)
+### Peak Rank (Iron I, Iron II, Iron III, Bronze I, Bronze II, Bronze III, Silver I, Silver II, Silver III, Gold I, Gold II, Gold III, Platinum I, Platinum II, Platinum III, Diamond I, Diamond II, Diamond III, Ascendant I, Ascendant II, Ascendant III, Immortal I, Immortal II, Immortal III, Radiant #XXX)
 
 ## **New Webpages Using the Form Data -**
 - ### **Player Profile Setup** – This page will contain the HTML form used to collect and save user information.
