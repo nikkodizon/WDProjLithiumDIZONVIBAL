@@ -62,3 +62,7 @@
 ### These wireframes clearly show the layout, page titles, section headers, form elements, and navigation between pages.
 ### The design of the new webpages will follow the same layout and style as the existing pages of the website.
 
+## **Integration with the Existing Website** - 
+### The new HTML form and webpages will be integrated into the current website structure.
+### A Profile link will be added to the navigation bar for easy access to the form and profile pages.
+### The logo, navigation bar, and footer design will remain consistent across all webpages.
