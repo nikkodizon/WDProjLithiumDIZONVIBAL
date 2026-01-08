@@ -47,6 +47,7 @@
 ## **The form will collect the following information from users:**
 ### Username
 ### Email address
+### Profile Bio
 ### Preferred role (Duelist, Sentinel, Controller, Initiator)
 ### Favorite agent
 ### Rank (Iron I, Iron II, Iron III, Bronze I, Bronze II, Bronze III, Silver I, Silver II, Silver III, Gold I, Gold II, Gold III, Platinum I, Platinum II, Platinum III, Diamond I, Diamond II, Diamond III, Ascendant I, Ascendant II, Ascendant III, Immortal I, Immortal II, Immortal III, Radiant #XXX)
