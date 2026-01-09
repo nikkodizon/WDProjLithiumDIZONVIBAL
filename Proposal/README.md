@@ -52,11 +52,13 @@
 ### Favorite agent
 ### Rank (Iron I, Iron II, Iron III, Bronze I, Bronze II, Bronze III, Silver I, Silver II, Silver III, Gold I, Gold II, Gold III, Platinum I, Platinum II, Platinum III, Diamond I, Diamond II, Diamond III, Ascendant I, Ascendant II, Ascendant III, Immortal I, Immortal II, Immortal III, Radiant #XXX)
 ### Peak Rank (Iron I, Iron II, Iron III, Bronze I, Bronze II, Bronze III, Silver I, Silver II, Silver III, Gold I, Gold II, Gold III, Platinum I, Platinum II, Platinum III, Diamond I, Diamond II, Diamond III, Ascendant I, Ascendant II, Ascendant III, Immortal I, Immortal II, Immortal III, Radiant #XXX)
+### Password
 
 ## **New Webpages Using the Form Data -**
 - ### **Player Profile Setup** – This page will contain the HTML form used to collect and save user information.
 - ### **Profile Edit Page** – This page will allow users to update their saved information by loading the previously entered data into the HTML form.
 - ### **Profile Display Page** – This page will display the user’s saved information such as their username, email address, preferred role, favorite agent, skill level, and preferred game modes.
+- ### **Login Page** – This page will allow returning users to log in to their existing profile using their email address and password. 
 
 ## **Wireframes for the New Webpages** - 
 ### Attached in the repository are the wireframes for the new webpages related to the HTML form.
