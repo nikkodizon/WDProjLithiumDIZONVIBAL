@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <meta name="description" content="3Q Portfolio" />
+    <meta name="keywords" content="3Q, Portfolio, Projects, Web Development" />
+    <meta name="Erwyn Aamir M. Vibal" content="3Q" />
+    <title>VALORANT: Beyond the Crosshair - Sign Up</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/Logo2.png" sizes="16x16" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="loader">
+      <svg class="loader-svg" width="200" height="200" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="loader-ring" style="transform-origin: 50px 50px">
+          <circle cx="50" cy="50" r="34" stroke="#E72632" stroke-width="4" stroke-dasharray="50 10" />
+        </g>
+        <g fill="#E72632">
+          <path d="M33 35H43L50 52L57 35H67L50 68L33 35Z" />
+          <rect x="45.5" y="2" width="9" height="22" />
+          <rect x="45.5" y="76" width="9" height="22" />
+          <rect x="2" y="45.5" width="22" height="9" />
+          <rect x="76" y="45.5" width="22" height="9" />
+        </g>
+      </svg>
+      <h2 style="margin-top: 20px">INITIATING...</h2>
+    </div>
+
+    <nav>
+      <div class="nav-container">
+        <a href="index.html">
+          <svg height="60" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="valorant-symbol-nav" fill="#FF4655">
+              <path d="M36 38H44L50 51L56 38H64L50 63L36 38Z" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M50 82C67.6731 82 82 67.6731 82 50C82 32.3269 67.6731 18 50 18C32.3269 18 18 32.3269 18 50C18 67.6731 32.3269 82 50 82ZM50 90C72.0914 90 90 72.0914 90 50C90 27.9086 72.0914 10 50 10C27.9086 10 10 27.9086 10 50C10 72.0914 27.9086 90 50 90Z" />
+              <rect x="46" y="2" width="8" height="20" />
+              <rect x="46" y="78" width="8" height="20" />
+              <rect x="2" y="46" width="20" height="8" />
+              <rect x="78" y="46" width="20" height="8" />
+            </g>
+            <g fill="#0F1923" font-family="'Oswald', sans-serif" style="text-transform: uppercase">
+              <text x="110" y="62" font-size="60" font-weight="900" fill="white">Valorant</text>
+              <text x="112" y="85" font-size="14" font-weight="700" letter-spacing="1.5" fill="#aaa">Beyond The Crosshair</text>
+            </g>
+          </svg>
+        </a>
+        <div class="menu-toggle" id="mobile-menu-btn">☰</div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="agents.html">AGENTS</a></li>
+          <li><a href="maps.html">MAPS</a></li>
+          <li><a href="weapons.html">WEAPONS</a></li>
+          <li><a href="gamemodes.html">GAMEMODES</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="page-section">
+      <div class="container auth-container">
+        <h1 class="section-title">AGENT RECRUITMENT</h1>
+        <form id="signup-form" class="auth-form">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" required />
+          </div>
+          <div class="form-group">
+            <label for="bio">Bio</label>
+            <textarea id="bio" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="role">Preferred Role</label>
+            <select id="role">
+              <option value="Duelist">Duelist</option>
+              <option value="Controller">Controller</option>
+              <option value="Initiator">Initiator</option>
+              <option value="Sentinel">Sentinel</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="agent">Favorite Agent</label>
+            <input type="text" id="agent" />
+          </div>
+          <div class="form-group">
+            <label for="rank">Current Rank</label>
+            <select id="rank">
+              <option value="Unranked">Unranked</option>
+              <option value="Iron">Iron</option>
+              <option value="Bronze">Bronze</option>
+              <option value="Silver">Silver</option>
+              <option value="Gold">Gold</option>
+              <option value="Platinum">Platinum</option>
+              <option value="Diamond">Diamond</option>
+              <option value="Ascendant">Ascendant</option>
+              <option value="Immortal">Immortal</option>
+              <option value="Radiant">Radiant</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="peak-rank">Peak Rank</label>
+            <select id="peak-rank">
+              <option value="Unranked">Unranked</option>
+              <option value="Iron">Iron</option>
+              <option value="Bronze">Bronze</option>
+              <option value="Silver">Silver</option>
+              <option value="Gold">Gold</option>
+              <option value="Platinum">Platinum</option>
+              <option value="Diamond">Diamond</option>
+              <option value="Ascendant">Ascendant</option>
+              <option value="Immortal">Immortal</option>
+              <option value="Radiant">Radiant</option>
+            </select>
+          </div>
+          <button type="submit" class="btn">JOIN PROTOCOL</button>
+          <p class="auth-switch">Already an agent? <a href="login.html">Login here</a></p>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer-logo">
+          <h3 style="color: #ff4655">VALORANT</h3>
+          <p style="font-size: 0.8rem; letter-spacing: 2px">BEYOND THE CROSSHAIR</p>
+        </div>
+        <p style="margin-top: 20px; font-size: 0.9rem">&copy; 2025 Valorant: Beyond the Crosshair. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
