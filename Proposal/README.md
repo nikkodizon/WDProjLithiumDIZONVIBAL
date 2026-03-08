@@ -40,3 +40,49 @@
 - ### A Copyright Notice: *© 2025 Valorant: Beyond the Crosshair. All rights reserved.*
 - ### Links to our social media
 - ### Sources and citations
+
+- ## HTML Form Design and Narrative
+
+The website will include a Player Profile and Preference Form that will be used to collect information from users of the website.
+
+This form will allow users to personalize their experience while exploring Valorant: Beyond the Crosshair.
+
+The form will collect the following information from users:
+
+- Username
+- Email address
+- Profile Bio
+- Preferred role (Duelist, Sentinel, Controller, Initiator)
+- Favorite agent
+- Rank (Iron I, Iron II, Iron III, Bronze I, Bronze II, Bronze III, Silver I, Silver II, Silver III, Gold I, Gold II, Gold III, Platinum I, Platinum II, Platinum III, Diamond I, Diamond II, Diamond III, Ascendant I, Ascendant II, Ascendant III, Immortal I, Immortal II, Immortal III, Radiant #XXX)
+- Peak Rank (Iron I, Iron II, Iron III, Bronze I, Bronze II, Bronze III, Silver I, Silver II, Silver III, Gold I, Gold II, Gold III, Platinum I, Platinum II, Platinum III, Diamond I, Diamond II, Diamond III, Ascendant I, Ascendant II, Ascendant III, Immortal I, Immortal II, Immortal III, Radiant #XXX)
+
+---
+
+## New Webpages Using the Form Data
+
+- **Player Profile Setup** – This page will contain the HTML form used to collect and save user information.
+
+- **Profile Edit Page** – This page will allow users to update their saved information by loading the previously entered data into the HTML form.
+
+- **Profile Display Page** – This page will display the user's saved information such as their username, email address, preferred role, favorite agent, skill level, and preferred game modes.
+
+---
+
+## Wireframes for the New Webpages
+
+Attached in the repository are the wireframes for the new webpages related to the HTML form.
+
+These wireframes clearly show the layout, page titles, section headers, form elements, and navigation between pages.
+
+The design of the new webpages will follow the same layout and style as the existing pages of the website.
+
+---
+
+## Integration with the Existing Website
+
+The new HTML form and webpages will be integrated into the current website structure.
+
+A Profile link will be added to the navigation bar for easy access to the form and profile pages.
+
+The logo, new navigation bar, and footer design will stay the same across all webpages.
