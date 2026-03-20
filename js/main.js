@@ -267,3 +267,166 @@ function handleLogout() {
     });
   }
 }
+// --- FAVORITE AGENTS CRUD ---
+
+let selectedRating = 0;
+
+// STAR INTERACTION (HALF STAR SUPPORT)
+document.addEventListener('DOMContentLoaded', () => {
+  const stars = document.querySelectorAll('#star-rating span');
+
+  stars.forEach(star => {
+    star.addEventListener('mousemove', (e) => {
+      const rect = star.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+
+      const isHalf = mouseX < rect.width / 2;
+      const value = parseFloat(star.dataset.value) - (isHalf ? 0.5 : 0);
+
+      highlightStars(value);
+    });
+
+    star.addEventListener('click', (e) => {
+      const rect = star.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+
+      const isHalf = mouseX < rect.width / 2;
+      selectedRating = parseFloat(star.dataset.value) - (isHalf ? 0.5 : 0);
+    });
+  });
+
+  document.getElementById('star-rating').addEventListener('mouseleave', () => {
+    highlightStars(selectedRating);
+  });
+});
+
+function highlightStars(rating) {
+  const stars = document.querySelectorAll('#star-rating span');
+
+  stars.forEach(star => {
+    const value = parseFloat(star.dataset.value);
+
+    if (rating >= value) {
+      star.textContent = '★';
+    } else if (rating >= value - 0.5) {
+      star.textContent = '⯨'; // optional half-star look (fallback if unsupported)
+    } else {
+      star.textContent = '☆';
+    }
+  });
+}
+
+function getAgents() {
+  return JSON.parse(localStorage.getItem('agents')) || [];
+}
+
+function saveAgents(agents) {
+  localStorage.setItem('agents', JSON.stringify(agents));
+}
+
+function renderAgents() {
+  const container = document.getElementById('agents-container');
+  if (!container) return;
+
+  const agents = getAgents();
+  container.innerHTML = '';
+
+  agents.forEach((agent, index) => {
+    const card = document.createElement('div');
+    card.className = 'player-card';
+
+    card.innerHTML = `
+      <div class="player-header">
+        <h2>${agent.name}</h2>
+        <span class="player-role-badge">${agent.start}</span>
+      </div>
+
+      <div class="player-bio">
+        <h3>RATING</h3>
+        <p>${'★'.repeat(agent.rating)}</p>
+      </div>
+
+      <div class="player-bio">
+        <h3>WHY I LIKE THIS AGENT</h3>
+        <p>${agent.bio}</p>
+      </div>
+
+      <div class="player-controls">
+        <button class="btn" onclick="updateAgent(${index})">UPDATE</button>
+        <button class="btn btn-secondary" onclick="deleteAgent(${index})">DELETE</button>
+      </div>
+    `;
+
+    container.appendChild(card);
+  });
+}
+
+function addAgent(e) {
+  e.preventDefault();
+
+  if (selectedRating === 0) {
+    alert("Select a rating!");
+    return;
+  }
+
+  const agentName = document.getElementById('agent-name').value.trim().toLowerCase();
+
+  const agents = getAgents();
+  const alreadyExists = agents.some(agent => agent.name === agentName);
+
+  if (alreadyExists) {
+    alert("You already added this agent!");
+    return;
+  }
+
+  const agent = {
+    name: agentName,
+    start: document.getElementById('agent-start').value,
+    rating: selectedRating,
+    bio: document.getElementById('agent-bio').value
+  };
+
+  agents.push(agent);
+  saveAgents(agents);
+
+  renderAgents();
+  e.target.reset();
+
+  selectedRating = 0;
+  document.querySelectorAll('#star-rating span').forEach(s => s.textContent = '☆');
+}
+
+function deleteAgent(index) {
+  const agents = getAgents();
+  agents.splice(index, 1);
+  saveAgents(agents);
+  renderAgents();
+}
+
+function updateAgent(index) {
+  const agents = getAgents();
+  const agent = agents[index];
+
+  document.getElementById('agent-name').value = agent.name;
+  document.getElementById('agent-start').value = agent.start;
+  document.getElementById('agent-bio').value = agent.bio;
+
+  selectedRating = agent.rating;
+
+  document.querySelectorAll('#star-rating span').forEach(s => {
+    s.textContent = s.dataset.value <= selectedRating ? '★' : '☆';
+  });
+
+  agents.splice(index, 1);
+  saveAgents(agents);
+  renderAgents();
+}
+
+// INIT
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('agent-form');
+  if (form) {
+    form.addEventListener('submit', addAgent);
+    renderAgents();
+  }
+});

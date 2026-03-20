@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite Agents</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-container">
+        <a href="index.html"><h2 style="color:#ff4655;">VALORANT</h2></a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="agents.html">AGENTS</a></li>
+          <li><a href="maps.html">MAPS</a></li>
+          <li><a href="weapons.html">WEAPONS</a></li>
+          <li><a href="gamemodes.html">GAMEMODES</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="page-section">
+      <div class="container">
+        <h1 class="section-title">FAVORITE AGENTS</h1>
+
+        <!-- FORM -->
+        <div class="player-card" style="margin-bottom:40px;">
+          <form id="agent-form" class="auth-form">
+
+            <div class="form-group">
+              <label>Agent</label>
+              <select id="agent-name" required>
+                <option value="">Select Agent</option>
+                <option>Jett</option>
+                <option>Reyna</option>
+                <option>Phoenix</option>
+                <option>Raze</option>
+                <option>Yoru</option>
+                <option>Neon</option>
+                <option>Iso</option>
+                <option>Sage</option>
+                <option>Killjoy</option>
+                <option>Cypher</option>
+                <option>Chamber</option>
+                <option>Deadlock</option>
+                <option>Brimstone</option>
+                <option>Omen</option>
+                <option>Viper</option>
+                <option>Astra</option>
+                <option>Harbor</option>
+                <option>Sova</option>
+                <option>Skye</option>
+                <option>KAY/O</option>
+                <option>Fade</option>
+                <option>Gekko</option>
+                <option>Miks</option>
+                <option>Veto</option>
+                <option>Waylay</option>
+                <option>Tejo</option>
+                <option>Vyse</option>
+                <option>Clove</option>
+              </select>
+            </div>
+
+        <div class="form-group">
+  <label>When did you start using this agent?</label>
+  <select id="agent-start" required>
+    <option value="">Select Act</option>
+
+  <optgroup label="Episode 1">
+    <option>Episode 1 - Act 1</option>
+    <option>Episode 1 - Act 2</option>
+    <option>Episode 1 - Act 3</option>
+  </optgroup>
+
+  <optgroup label="Episode 2">
+    <option>Episode 2 - Act 1</option>
+    <option>Episode 2 - Act 2</option>
+    <option>Episode 2 - Act 3</option>
+  </optgroup>
+
+  <optgroup label="Episode 3">
+    <option>Episode 3 - Act 1</option>
+    <option>Episode 3 - Act 2</option>
+    <option>Episode 3 - Act 3</option>
+  </optgroup>
+
+  <optgroup label="Episode 4">
+    <option>Episode 4 - Act 1</option>
+    <option>Episode 4 - Act 2</option>
+    <option>Episode 4 - Act 3</option>
+  </optgroup>
+
+  <optgroup label="Episode 5">
+    <option>Episode 5 - Act 1</option>
+    <option>Episode 5 - Act 2</option>
+    <option>Episode 5 - Act 3</option>
+  </optgroup>
+
+  <optgroup label="Episode 6">
+    <option>Episode 6 - Act 1</option>
+    <option>Episode 6 - Act 2</option>
+    <option>Episode 6 - Act 3</option>
+  </optgroup>
+
+  <optgroup label="Episode 7">
+    <option>Episode 7 - Act 1</option>
+    <option>Episode 7 - Act 2</option>
+    <option>Episode 7 - Act 3</option>
+  </optgroup>
+
+  <optgroup label="Episode 8">
+    <option>Episode 8 - Act 1</option>
+    <option>Episode 8 - Act 2</option>
+    <option>Episode 8 - Act 3</option>
+  </optgroup>
+
+  <optgroup label="Episode 9">
+    <option>Episode 9 - Act 1</option>
+    <option>Episode 9 - Act 2</option>
+    <option>Episode 9 - Act 3</option>
+  </optgroup>
+
+  <optgroup label="V25">
+    <option>V25 - Act 1</option>
+    <option>V25 - Act 2</option>
+    <option>V25 - Act 3</option>
+    <option>V25 - Act 4</option>
+    <option>V25 - Act 5</option>
+    <option>V25 - Act 6</option>
+  </optgroup>
+
+  <optgroup label="V26 (Current)">
+    <option>V26 - Act 1</option>
+    <option>V26 - Act 2</option>
+  </optgroup>
+
+</select>
+
+            <div class="form-group">
+              <label>Skill Rating</label>
+              <div id="star-rating" style="font-size:2rem; cursor:pointer;">
+                <span data-value="1">☆</span>
+                <span data-value="2">☆</span>
+                <span data-value="3">☆</span>
+                <span data-value="4">☆</span>
+                <span data-value="5">☆</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Why do you like this agent?</label>
+              <textarea id="agent-bio" required></textarea>
+            </div>
+
+            <button class="btn" type="submit">ADD AGENT</button>
+          </form>
+        </div>
+
+        <!-- DISPLAY -->
+        <div id="agents-container" class="card-grid"></div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
