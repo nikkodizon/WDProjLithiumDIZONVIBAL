@@ -1,5 +1,46 @@
 # Erwyn Aamir M. Vibal and Nikko Brenden S. Dizon | 9-Lithium
 
+# FINAL MODIFICATION PROPOSAL
+
+### The website will include a new interactive feature that allows users to create and manage a personalized list of their favorite agents.
+### This feature will implement a full CRUD (Create, Read, Update, Delete) system using localStorage to store user data in the browser.
+### Users will be able to add, view, edit, and remove their favorite agents.
+
+## **Purpose and Usage**
+
+### The purpose of this feature is to improve user experience by adding personalization and interactivity.
+### At the bottom of the Profile Display Page, there will be a button labeled:
+### "FAVORITE AGENTS OF *USER*"
+### When clicked, it will redirect the user to a new webpage showing their saved favorite agents.
+### Each agent entry will include:
+
+- ### Agent Name  
+- ### When the user started using the agent (Valorant Act)  
+- ### Skill rating (1–5 stars)  
+- ### A short description explaining why the user likes the agent  
+
+## **JavaScript Integration (CRUD with localStorage)**
+
+- ### Create (Add)
+### Users can click an "Add Agent" button and input details into a form.  
+### The data will be saved into localStorage as an array of objects.
+
+- ### Read (Display)
+### The saved data will be retrieved from localStorage and displayed dynamically on the page.
+
+- ### Update
+### Each entry will have an "Update" button.  
+### Clicking it will load the existing data into a form where users can edit and save changes.
+
+- ### Delete
+### Each entry will have a "Delete" button.  
+### Clicking it will remove the selected agent from localStorage and update the display.
+
+## **Wireframe Description**
+
+### Attached in the repository is the wireframes for the new webpage  related to the cRUD integration and the updated profile display page.
+### The design of the new webpages will follow the same layout and style as the existing pages of the website.
+
 ## **Website Title**
 ### "Valorant: Beyond the Crosshair"
 
@@ -13,7 +54,46 @@
 ## **Website Description**
 ### *Valorant: Beyond the Crosshair* is an interactive guide designed to help players of all skill levels improve their gameplay. It offers detailed insights into agents, maps, weapons, and strategies — everything a player needs to understand the game in depth.
 ### The goal of the website is to guide players from beginners to pros through engaging visuals, organized layouts, and interactive features that enhance understanding and gameplay.
+# FINAL MODIFICATION PROPOSAL
 
+### The website will include a new interactive feature that allows users to create and manage a personalized list of their favorite agents.
+### This feature will implement a full CRUD (Create, Read, Update, Delete) system using localStorage to store user data in the browser.
+### Users will be able to add, view, edit, and remove their favorite agents.
+
+## **Purpose and Usage**
+
+### The purpose of this feature is to improve user experience by adding personalization and interactivity.
+### At the bottom of the Profile Display Page, there will be a button labeled:
+### "FAVORITE AGENTS OF *USER*"
+### When clicked, it will redirect the user to a new webpage showing their saved favorite agents.
+### Each agent entry will include:
+
+- ### Agent Name  
+- ### When the user started using the agent (Valorant Act)  
+- ### Skill rating (1–5 stars)  
+- ### A short description explaining why the user likes the agent  
+
+## **JavaScript Integration (CRUD with localStorage)**
+
+- ### Create (Add)
+### Users can click an "Add Agent" button and input details into a form.  
+### The data will be saved into localStorage as an array of objects.
+
+- ### Read (Display)
+### The saved data will be retrieved from localStorage and displayed dynamically on the page.
+
+- ### Update
+### Each entry will have an "Update" button.  
+### Clicking it will load the existing data into a form where users can edit and save changes.
+
+- ### Delete
+### Each entry will have a "Delete" button.  
+### Clicking it will remove the selected agent from localStorage and update the display.
+
+## **Wireframe Description**
+
+### Attached in the repository is the wireframes for the new webpage  related to the cRUD integration and the updated profile display page.
+### The design of the new webpages will follow the same layout and style as the existing pages of the website.
 ## **Website Outline**
 
 - ### **Home** – The main welcome page that introduces the website’s purpose, shows the Valorant banner and includes various designs, and links to other pages such as Agents and Weapons.
@@ -86,44 +166,3 @@
 ### A Profile link will be added to the navigation bar for easy access to the form and profile pages.
 
 ### The logo, navigation bar, and footer design will stay the same across all webpages.
-
-# FINAL MODIFICATION PROPOSAL
-
-### The website will include a new interactive feature that allows users to create and manage a personalized list of their favorite agents.
-### This feature will implement a full CRUD (Create, Read, Update, Delete) system using localStorage to store user data in the browser.
-### Users will be able to add, view, edit, and remove their favorite agents.
-
-## **Purpose and Usage**
-
-### The purpose of this feature is to improve user experience by adding personalization and interactivity.
-### At the bottom of the Profile Display Page, there will be a button labeled:
-### "FAVORITE AGENTS OF *USER*"
-### When clicked, it will redirect the user to a new webpage showing their saved favorite agents.
-### Each agent entry will include:
-
-- ### Agent Name  
-- ### When the user started using the agent (Valorant Act)  
-- ### Skill rating (1–5 stars)  
-- ### A short description explaining why the user likes the agent  
-
-## **JavaScript Integration (CRUD with localStorage)**
-
-- ### Create (Add)
-### Users can click an "Add Agent" button and input details into a form.  
-### The data will be saved into localStorage as an array of objects.
-
-- ### Read (Display)
-### The saved data will be retrieved from localStorage and displayed dynamically on the page.
-
-- ### Update
-### Each entry will have an "Update" button.  
-### Clicking it will load the existing data into a form where users can edit and save changes.
-
-- ### Delete
-### Each entry will have a "Delete" button.  
-### Clicking it will remove the selected agent from localStorage and update the display.
-
-## **Wireframe Description**
-
-### Attached in the repository is the wireframes for the new webpage  related to the cRUD integration and the updated profile display page.
-### The design of the new webpages will follow the same layout and style as the existing pages of the website.
